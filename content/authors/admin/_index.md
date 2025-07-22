@@ -3,7 +3,7 @@
 title: Khoi Huynh
 
 # Name pronunciation (optional)
-name_pronunciation: Khoi Minh Huynh
+#name_pronunciation: Khoi Minh Huynh
 
 # Full name (for SEO)
 first_name: Khoi
