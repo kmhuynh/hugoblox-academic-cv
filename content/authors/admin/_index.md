@@ -183,5 +183,4 @@ education:
 
 ## About Me
 
-I’m a postdoc in Dr. Pew-Thian Yap’s lab at UNC-Chapel Hill, where I build tools to better understand how the brain changes over time — through development, aging, and disease. I’m especially focused on creating normative brain charts, like the height and weight charts used in pediatric care, to help spot when something’s not quite right.
-At the heart of it, I’m driven by a simple goal - to turn brain scans into practical tools that make healthcare better — so no child is left behind just because we didn’t see the signs soon enough.
+I am a postdoc in radiology at UNC Chapel Hill. Since 2017, I’ve been working with Dr. Pew-Thian Yap on MR reconstruction, signal representation, noise removal, tractography, and microstructure imaging using diffusion MRI data with applications in neurodevelopment.
