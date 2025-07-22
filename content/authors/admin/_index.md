@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 吳健雄
+title: Khoi Huynh
 
 # Name pronunciation (optional)
 name_pronunciation: Khoi Minh Huynh
@@ -185,4 +185,3 @@ education:
 
 I’m a postdoc in Dr. Pew-Thian Yap’s lab at UNC-Chapel Hill, where I build tools to better understand how the brain changes over time — through development, aging, and disease. I’m especially focused on creating normative brain charts, like the height and weight charts used in pediatric care, to help spot when something’s not quite right.
 At the heart of it, I’m driven by a simple goal - to turn brain scans into practical tools that make healthcare better — so no child is left behind just because we didn’t see the signs soon enough.
-#Most of my work is grounded in x-space (where the brain images live), but my mind often drifts into q-space and k-space — where the raw signals and deeper patterns begin to emerge.
