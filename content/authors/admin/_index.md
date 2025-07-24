@@ -57,7 +57,7 @@ education:
     date_start: 2017-08-15
     date_end: 2022-05-10
     summary: |
-      Computational Tools For Studying Microstructural Development Of The Human Brain With Diffusion Magnetic Resonance Imaging. Supervised by [Prof Pew-Thian Yap](https://www.yaplab.io). This was the defining moment of my career. I’m incredibly grateful to my PI and the amazing team here at UNC. If you're thinking about joining him, don’t hesitate to reach out - I'd be happy to share my experience.
+      Computational Tools For Studying Microstructural Development Of The Human Brain With Diffusion Magnetic Resonance Imaging. Supervised by [Dr. Pew-Thian Yap](https://www.yaplab.io). This was the defining moment of my career. I’m incredibly grateful to my PI and the amazing team here at UNC. If you're thinking about joining him, don’t hesitate to reach out - I'd be happy to share my experience.
     button:
       text: 'Read Dissertation'
       url: 'https://cdr.lib.unc.edu/concern/dissertations/6d570652h'
@@ -153,10 +153,9 @@ education:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 # awards:
-#   - title: Neural Networks and Deep Learning
-#     url: https://www.coursera.org/learn/neural-networks-deep-learning
-#     date: '2023-11-25'
-#     awarder: Coursera
+   - title: ISMRM Summa Cum Laude - Presentations: ”Precision Cortex Tractography for the Developing Brain”, and ”Pan- Contrast Learning of MRI Segmentation for Healthy and Anomaly Cases: Faithful to Tissue Properties and MR Physics”
+     date: '2023-11-25'
+     awarder: ISMRM
 #     icon: coursera
 #     summary: |
 #       I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
