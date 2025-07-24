@@ -140,7 +140,7 @@ education:
 #         percent: 80
 #         icon: camera
 
- languages:
+languages:
    - name: English
      percent: 100
    - name: Chinese
