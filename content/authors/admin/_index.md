@@ -153,8 +153,8 @@ education:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-
-   - title: ISMRM Summa Cum Laude - Presentations: ”Precision Cortex Tractography for the Developing Brain”, and ”Pan- Contrast Learning of MRI Segmentation for Healthy and Anomaly Cases: Faithful to Tissue Properties and MR Physics”
+#
+   - title: Summa Cum Laude awards - Presentations: 'Precision Cortex Tractography for the Developing Brain', and 'Pan- Contrast Learning of MRI Segmentation for Healthy and Anomaly Cases: Faithful to Tissue Properties and MR Physics'
      date: '2023-11-25'
      awarder: ISMRM
      icon: coursera
