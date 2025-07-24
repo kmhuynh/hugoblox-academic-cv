@@ -57,10 +57,11 @@ education:
     date_start: 2017-08-15
     date_end: 2022-05-10
     summary: |
-      Computational Tools For Studying Microstructural Development Of The Human Brain With Diffusion Magnetic Resonance Imaging. Supervised by [Prof Pew-Thian Yap](https://example.com).
+      Computational Tools For Studying Microstructural Development Of The Human Brain With Diffusion Magnetic Resonance Imaging. Supervised by [Prof Pew-Thian Yap](https://www.yaplab.io).
     button:
-      text: 'Read Thesis'
+      text: 'Read Dissertation'
       url: 'https://cdr.lib.unc.edu/concern/dissertations/6d570652h'
+	  This was the defining moment of my career. I’m incredibly grateful to my PI and the amazing team here at UNC. If you're thinking about joining him, don’t hesitate to reach out—I'd be happy to share my experience.
   # - area: MEng Artificial Intelligence
   #   institution: Massachusetts Institute of Technology
   #   date_start: 2016-01-01
@@ -72,12 +73,15 @@ education:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  # - area: BSc Artificial Intelligence
-  #   institution: Massachusetts Institute of Technology
-  #   date_start: 2016-01-01
-  #   date_end: 2020-12-31
-  #   summary: |
-  #     GPA: 3.4/4.0
+  
+  - area: BE Biomedical Engineering
+    institution: International University, Vietnam
+    date_start: 2012-09-01
+    date_end: 2016-05-20
+    summary: |
+      This was a turning point in my MRI journey. I was fortunate to work with Dr. Loan Vo on MRI clinical study, MR-compatible hardware design, structural, functional, and diffusional MRI analysis. I lived on the JISC mailing list and Dr. Andrew Jahn’s YouTube [videos](https://www.youtube.com/watch?v=dBDmIhSWfnM). It was chaotic, challenging—and one of the most fun times I’ve had in research.
+  		
+	  
       
   #     Courses included:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
