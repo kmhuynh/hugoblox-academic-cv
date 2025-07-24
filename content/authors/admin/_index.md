@@ -72,16 +72,12 @@ education:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  
   - area: BE Biomedical Engineering
     institution: International University, Vietnam
     date_start: 2012-09-01
     date_end: 2016-05-20
     summary: |
       This was a turning point in my MRI journey. I was fortunate to work with Dr. Loan Vo on MRI clinical study, MR-compatible hardware design, structural, functional, and diffusional MRI analysis. I lived on the JISC mailing list and Dr. Andrew Jahn’s YouTube [videos](https://www.youtube.com/watch?v=dBDmIhSWfnM). It was chaotic, challenging—and one of the most fun times I’ve had in research.
-  		
-	  
-      
   #     Courses included:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
