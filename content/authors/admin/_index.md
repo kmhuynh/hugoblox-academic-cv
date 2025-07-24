@@ -57,11 +57,10 @@ education:
     date_start: 2017-08-15
     date_end: 2022-05-10
     summary: |
-      Computational Tools For Studying Microstructural Development Of The Human Brain With Diffusion Magnetic Resonance Imaging. Supervised by [Prof Pew-Thian Yap](https://www.yaplab.io).
+      Computational Tools For Studying Microstructural Development Of The Human Brain With Diffusion Magnetic Resonance Imaging. Supervised by [Prof Pew-Thian Yap](https://www.yaplab.io). This was the defining moment of my career. I’m incredibly grateful to my PI and the amazing team here at UNC. If you're thinking about joining him, don’t hesitate to reach out - I'd be happy to share my experience.
     button:
       text: 'Read Dissertation'
       url: 'https://cdr.lib.unc.edu/concern/dissertations/6d570652h'
-	  This was the defining moment of my career. I’m incredibly grateful to my PI and the amazing team here at UNC. If you're thinking about joining him, don’t hesitate to reach out - I'd be happy to share my experience.
   # - area: MEng Artificial Intelligence
   #   institution: Massachusetts Institute of Technology
   #   date_start: 2016-01-01
