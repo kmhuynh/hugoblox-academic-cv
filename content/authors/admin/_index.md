@@ -140,25 +140,25 @@ education:
 #         percent: 80
 #         icon: camera
 
-languages:
-   - name: English
-     percent: 100
-   - name: Chinese
-     percent: 75
-   - name: Portuguese
-     percent: 25
+#languages:
+#   - name: English
+#     percent: 100
+#   - name: Chinese
+#     percent: 75
+#   - name: Portuguese
+#     percent: 25
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-# awards:
-#   - title: ISMRM Summa Cum Laude - Presentations: ”Precision Cortex Tractography for the Developing Brain”, and ”Pan- Contrast Learning of MRI Segmentation for Healthy and Anomaly Cases: Faithful to Tissue Properties and MR Physics”
-#     date: '2023-11-25'
-#     awarder: ISMRM
-#     icon: coursera
-#     summary: |
-#       I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+awards:
+   - title: ISMRM Summa Cum Laude - Presentations: ”Precision Cortex Tractography for the Developing Brain”, and ”Pan- Contrast Learning of MRI Segmentation for Healthy and Anomaly Cases: Faithful to Tissue Properties and MR Physics”
+     date: '2023-11-25'
+     awarder: ISMRM
+     icon: coursera
+     summary: |
+       I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
 #   - title: Blockchain Fundamentals
 #     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
 #     date: '2023-07-01'
