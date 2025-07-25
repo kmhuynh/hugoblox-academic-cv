@@ -225,4 +225,4 @@ awards:
 
 ## About Me
 
-#I am a postdoc in radiology at UNC Chapel Hill. Since 2017, I’ve been working with Dr. Pew-Thian Yap on MR reconstruction, signal representation, noise removal, tractography, and microstructure imaging using diffusion MRI data with applications in neurodevelopment.
+I am a postdoc in radiology at UNC Chapel Hill. Since 2017, I’ve been working with Dr. Pew-Thian Yap on MR reconstruction, signal representation, noise removal, tractography, and microstructure imaging using diffusion MRI data with applications in neurodevelopment.
