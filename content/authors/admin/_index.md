@@ -196,6 +196,7 @@ awards:
    - title: "🏅 MICCAI Graduate Student Award"
      date: '2019-10-01'
      awarder: MICCAI Society
+     icon: miccai
      summary: |
        - [Probing Brain Micro-Architecture by Orientation Distribution Invariant Identification of Diffusion Compartments](https://pubmed.ncbi.nlm.nih.gov/34447975/)
        - [Characterizing Non-Gaussian Diffusion in Heterogeneously Oriented Tissue Microenvironments](https://pubmed.ncbi.nlm.nih.gov/34447976/)
