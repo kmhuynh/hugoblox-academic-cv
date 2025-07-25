@@ -151,7 +151,7 @@ skills:
          description: 'I might be biased, but the Great Smoky Mountains are the best (closely followed by Sequoia-Kings).'
          percent: 0
          #icon: #custom/nps # must be in asset/media/icons/custom to work
-   - name: Next destinations (hopefully soon...)
+   - name: Next destinations
      color: '#eeac02'
      color_border: '#f0bf23'
      items:
@@ -161,15 +161,12 @@ skills:
        - name: "🦟🌳🌧️ Congaree"
          description: ''
          percent: 0
-         #icon: person-simple-walk
        - name: "🦬🌋💨 Yellowstone"
          description: ''
          percent: 0
-         #icon: custom/kayak
        - name: "🐻🍂🏞️ The Smokies"
          description: 'I might be biased, but the Great Smoky Mountains are REALLY the best.'
          percent: 0
-         #icon: #custom/nps # must be in asset/media/icons/custom to work
 
 #languages:
 #   - name: English
