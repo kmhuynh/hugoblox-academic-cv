@@ -37,8 +37,8 @@ profiles:
   #  url: https://twitter.com/GetResearchDev
   #- icon: brands/instagram
   #  url: https://www.instagram.com/
-  - icon: custom/stacked-peaks
-    url: https://github.com/gcushen
+  #- icon: brands/github
+  #  url: https://github.com/gcushen
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/khoi-minh-huynh/
   - icon: academicons/google-scholar
@@ -162,6 +162,7 @@ awards:
    - title: "🎓 ISMRM Education Stipend"
      date: '2025-05-10'
      awarder: ISMRM
+     icon: /custom/stacked-peaks
      summary: |
        - [Precision Cortex Tractography for the Developing Brain](https://submissions.mirasmart.com/ISMRM2025/Itinerary/ConferenceMatrixEventDetail.aspx?ses=O-42)
    - title: "🏅 Best Oral Presentation – 2023 UNC Radiology Symposium"
@@ -213,4 +214,4 @@ awards:
 
 ## About Me
 
-I am a postdoc in radiology at UNC Chapel Hill. Since 2017, I’ve been working with Dr. Pew-Thian Yap on MR reconstruction, signal representation, noise removal, tractography, and microstructure imaging using diffusion MRI data with applications in neurodevelopment.
+#I am a postdoc in radiology at UNC Chapel Hill. Since 2017, I’ve been working with Dr. Pew-Thian Yap on MR reconstruction, signal representation, noise removal, tractography, and microstructure imaging using diffusion MRI data with applications in neurodevelopment.
