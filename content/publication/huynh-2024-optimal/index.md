@@ -29,8 +29,8 @@ featured: true
 
 links:
 #- name: Custom Link
-url: https://doi.org/10.1016/j.patter.2024.100954
-url_pdf: https://doi.org/10.1016/j.patter.2024.100954
+url:
+url_pdf:
 url_code: 'https://osf.io/f384h/'
 url_dataset: '#'
 url_poster: '#'
