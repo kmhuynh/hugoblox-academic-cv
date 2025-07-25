@@ -169,24 +169,11 @@ awards:
        - Synthesize your own blockchain solutions
        - Gain an in-depth understanding of the specific mechanics of Bitcoin
        - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-   - title: '<img src="ismrm.png" style="height:20px;vertical-align:middle;margin-right:8px;"> ISMRM Summa Cum Laude Award'
+   - title: "🏅 ISMRM Summa Cum Laude Award"
      url: https://www.ismrm.org/25/docs/25-Summa.pdf
      date: '2025-05-10'
      awarder: ISMRM
-   - title: ISMRM Summa Cum Laude Award
-     url: https://www.ismrm.org/25/docs/25-Summa.pdf
-     date: '2025-05-10'
-     awarder: ISMRM
-     content: '<img src="/media/icons/ismrm.png" style="height:20px;vertical-align:middle;margin-right:8px;"> Awarded for top-rated abstract at ISMRM 2025.'
-   - title: ISMRM Summa Cum Laude Award
-     url: https://www.ismrm.org/25/docs/25-Summa.pdf
-     date: '2025-05-10'
-     awarder: ISMRM
-     content: |
-       <p>
-         <img src="/media/icons/ismrm.png" style="height:20px;vertical-align:middle;margin-right:8px;">
-         Awarded for top-rated abstract at ISMRM 2025.
-       </p> 
+     content: "Awarded for top-rated abstract at ISMRM 2025."
 #   - title: 'Object-Oriented Programming in R'
 #     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
 #     certificate_url: https://www.datacamp.com
