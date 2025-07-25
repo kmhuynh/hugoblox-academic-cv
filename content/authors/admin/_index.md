@@ -155,16 +155,16 @@ skills:
      color: '#eeac02'
      color_border: '#f0bf23'
      items:
-       - name: "🌵🦎🏜️ Saguaro"
+       - name: "🌵🦎🏜️"
          description: ''
          percent: 0
-       - name: "🦟🌳🌧️ Congaree"
+       - name: "🦟🌳🌧️"
          description: ''
          percent: 0
-       - name: "🦬🌋💨 Yellowstone"
+       - name: "🦬🌋💨"
          description: ''
          percent: 0
-       - name: "🐻🍂🪕 Great Smoky Mountains"
+       - name: "🐻🍂🪕"
          description: 'I might be biased, but the Great Smoky Mountains are REALLY the best.'
          percent: 0
 
