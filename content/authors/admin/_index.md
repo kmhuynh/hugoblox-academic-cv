@@ -164,7 +164,7 @@ awards:
    - title: "🎓 ISMRM Education Stipend"
      date: '2025-05-10'
      awarder: ISMRM
-     icon: /custom/stacked-peaks
+     icon: /custom/ismrm
      summary: |
        - [Precision Cortex Tractography for the Developing Brain](https://submissions.mirasmart.com/ISMRM2025/Itinerary/ConferenceMatrixEventDetail.aspx?ses=O-42)
    - title: "🏅 Best Oral Presentation – 2023 UNC Radiology Symposium"
