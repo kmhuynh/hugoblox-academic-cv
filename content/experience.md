@@ -1,5 +1,5 @@
 ---
-title: ''
+title: 'AAA'
 date: 2023-10-24
 type: landing
 
@@ -12,9 +12,9 @@ design:
 sections:
   - block: markdown
     content:
-      title: 'CV'
-      subtitle: ''
-      text: ""
+      title: "📄 My CV"
+      text: |
+        You can download my full CV here:
       ## Show a call-to-action button under your biography? (optional)
        button:
          text: Download CV
