@@ -165,7 +165,7 @@ awards:
      date: '2025-05-10'
      awarder: ISMRM
      icon: custom/test_icon
-     icon_pack: custom
+	 content: '<img src="/media/icons/ismrm.png" style="height:20px;vertical-align:middle;margin-right:8px;"> Summa Cum Laude Award'
      summary: |
        Learned:
        - Synthesize your own blockchain solutions
