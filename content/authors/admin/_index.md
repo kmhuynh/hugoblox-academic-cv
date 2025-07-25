@@ -144,10 +144,10 @@ skills:
          description: ''
          percent: 0
          icon: cat
-       - name: Photography
+       - name: Kayaking
          description: ''
          percent: 0
-         icon: camera
+         icon: custom/kayak
        - name: Visting National Parks
          description: 'I might be biased, but the Great Smoky Mountains are the best (closely followed by Sequoia-Kings).'
          percent: 0
