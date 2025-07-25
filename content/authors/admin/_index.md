@@ -37,8 +37,8 @@ profiles:
   #  url: https://twitter.com/GetResearchDev
   #- icon: brands/instagram
   #  url: https://www.instagram.com/
-  #- icon: brands/github
-  #  url: https://github.com/gcushen
+  - icon: custom/stacked-peaks
+    url: https://github.com/gcushen
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/khoi-minh-huynh/
   - icon: academicons/google-scholar
