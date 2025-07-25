@@ -164,7 +164,7 @@ awards:
      url: https://www.ismrm.org/25/docs/25-Summa.pdf
      date: '2025-05-10'
      awarder: ISMRM
-     icon: code-bracket
+     icon: custom/test_icon
      summary: |
        Learned:
        - Synthesize your own blockchain solutions
