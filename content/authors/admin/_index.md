@@ -164,7 +164,7 @@ skills:
        - name: "🦬🌋💨 Yellowstone"
          description: ''
          percent: 0
-       - name: "🐻🍂🏞️ The Smokies"
+       - name: "🐻🍂🪕 Great Smoky Mountains"
          description: 'I might be biased, but the Great Smoky Mountains are REALLY the best.'
          percent: 0
 
