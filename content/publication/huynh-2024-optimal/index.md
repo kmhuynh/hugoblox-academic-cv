@@ -29,15 +29,15 @@ featured: true
 
 links:
 #- name: Custom Link
-url:
-url_pdf:
+url: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11026978/'
+url_pdf: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC11026978/'
 url_code: 'https://osf.io/f384h/'
-url_dataset: '#'
-url_poster: '#'
-url_project: ''
-url_slides: ''
-url_source: '#'
-url_video: '#'
+#url_dataset: '#'
+#url_poster: '#'
+#url_project: ''
+#url_slides: ''
+#url_source: '#'
+#url_video: '#'
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
