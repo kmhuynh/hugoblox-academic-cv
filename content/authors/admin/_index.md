@@ -97,7 +97,7 @@ work:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - position: Backend Software Engineer
-    icon: edX
+    icon: brands/linkedin
     company_name: X
     company_url: ''
     company_logo: ''
@@ -190,6 +190,7 @@ awards:
    - title: "✈️ UNC-BME Travel Award"
      date: '2020-03-01'
      awarder: UNC-NCSU BME
+     icon: unc_bme
      summary: |
        - [Quantifying Intra-Soma Diffusion Properties via Spherical Mean Spectrum Imaging](https://archive.ismrm.org/2020/4419.html)
    - title: "🏅 MICCAI Graduate Student Award"
