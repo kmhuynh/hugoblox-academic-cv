@@ -180,6 +180,15 @@ awards:
      date: '2025-05-10'
      awarder: ISMRM
      content: '<img src="/media/icons/ismrm.png" style="height:20px;vertical-align:middle;margin-right:8px;"> Awarded for top-rated abstract at ISMRM 2025.'
+   - title: ISMRM Summa Cum Laude Award
+     url: https://www.ismrm.org/25/docs/25-Summa.pdf
+     date: '2025-05-10'
+     awarder: ISMRM
+     content: |
+       <p>
+         <img src="/media/icons/ismrm.png" style="height:20px;vertical-align:middle;margin-right:8px;">
+         Awarded for top-rated abstract at ISMRM 2025.
+       </p> 
 #   - title: 'Object-Oriented Programming in R'
 #     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
 #     certificate_url: https://www.datacamp.com
