@@ -145,7 +145,7 @@ skills:
        - name: Photography
          description: ''
          percent: 80
-         icon: unc_crop_2
+         icon: custom/unc_crop_2
 
 #languages:
 #   - name: English
