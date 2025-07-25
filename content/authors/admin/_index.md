@@ -163,8 +163,8 @@ awards:
    - title: ISMRM Summa Cum Laude awards
      url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
      date: '2023-07-01'
-     awarder: edX
-     icon: ismrm
+     awarder: ISMRM
+     icon: test_icon
      summary: |
        Learned:
        - Synthesize your own blockchain solutions
