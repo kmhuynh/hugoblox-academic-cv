@@ -112,20 +112,20 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-#   - name: Technical Skills
-#     items:
-#       - name: Python
-#         description: ''
-#         percent: 80
-#         icon: code-bracket
-#       - name: Data Science
-#         description: ''
-#         percent: 100
-#         icon: chart-bar
-#       - name: SQL
-#         description: ''
-#         percent: 40
-#         icon: circle-stack
+  - name: Technical Skills
+    items:
+      - name: Python
+        description: ''
+        percent: 80
+        icon: code-bracket
+      - name: Data Science
+        description: ''
+        percent: 100
+        icon: chart-bar
+      - name: SQL
+        description: ''
+        percent: 40
+        icon: circle-stack
    - name: Hobbies
      color: '#eeac02'
      color_border: '#f0bf23'
@@ -145,7 +145,7 @@ skills:
        - name: Photography
          description: ''
          percent: 80
-         icon: custom/unc_crop_2
+         icon: custom/unc_crop_2 # must be in asset/media/icons/custom to work
 
 #languages:
 #   - name: English
@@ -162,7 +162,7 @@ awards:
      url: https://www.ismrm.org/25/docs/25-Summa.pdf
      date: '2025-05-10'
      awarder: ISMRM
-     icon: ismrm
+     icon: ismrm # icon must be in asset/media/icons/brands to work
      summary: |
        Two Summa Cum Laude Awards for presentations
        - [Precision Cortex Tractography for the Developing Brain](https://submissions.mirasmart.com/ISMRM2025/Itinerary/ConferenceMatrixEventDetail.aspx?ses=O-42)
