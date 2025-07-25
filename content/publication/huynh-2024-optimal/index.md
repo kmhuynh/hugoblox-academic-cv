@@ -6,9 +6,15 @@ authors:
 - Ye Wu
 - Pew-Thian Yap
 date: '2024-01-01'
-publishDate: '2025-07-22T22:53:54.542405Z'
+# Schedule page publish date (NOT publication's date).
+publishDate: "2017-01-01T00:00:00Z"
+
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
 publication_types: ["article-journal"]
-- article-journal
+
 publication: '*Patterns*'
 
 abstract: The spatial resolution attainable in diffusion magnetic resonance (MR) imaging is inherently limited by noise. The weaker signal associated with a smaller voxel size, especially at a high level of diffusion sensitization, is often buried under the noise floor owing to the non-Gaussian nature of the MR magnitude signal. Here, we show how the noise floor can be suppressed remarkably via optimal shrinkage of singular values associated with noise in complex-valued k-space data from multiple receiver channels. We explore and compare different low-rank signal matrix recovery strategies to utilize the inherently redundant information from multiple channels. In combination with background phase removal, the optimal strategy reduces the noise floor by 11 times. Our framework enables imaging with substantially improved resolution for precise characterization of tissue microstructure and white matter pathways without relying on expensive hardware upgrades and time-consuming acquisition repetitions, outperforming other related denoising methods.
