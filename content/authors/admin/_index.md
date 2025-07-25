@@ -164,14 +164,12 @@ awards:
      url: https://www.ismrm.org/25/docs/25-Summa.pdf
      date: '2025-05-10'
      awarder: ISMRM
-     icon: custom/test_icon
-     content: '<img src="ismrm.png" style="height:20px;vertical-align:middle;margin-right:8px;"> Summa Cum Laude Award'
      summary: |
        Learned:
        - Synthesize your own blockchain solutions
        - Gain an in-depth understanding of the specific mechanics of Bitcoin
        - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-   - title: '<img src="/uploads/ismrm.png" style="height:20px;vertical-align:middle;margin-right:8px;"> ISMRM Summa Cum Laude Award'
+   - title: '<img src="ismrm.png" style="height:20px;vertical-align:middle;margin-right:8px;"> ISMRM Summa Cum Laude Award'
      url: https://www.ismrm.org/25/docs/25-Summa.pdf
      date: '2025-05-10'
      awarder: ISMRM
