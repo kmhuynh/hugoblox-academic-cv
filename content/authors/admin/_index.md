@@ -165,14 +165,14 @@ awards:
      date: '2025-05-10'
      awarder: ISMRM
      summary: |
-       Two Summa Cum Laude Awards for presentations
-       - Precision Cortex Tractography for the Developing Brain
-       - Pan Contrast Learning of MRI Segmentation for Healthy and Anomaly Cases: Faithful to Tissue Properties and MR Physics
+       Two Summa Cum Laude Awards for presentations](https://submissions.mirasmart.com/ISMRM2025/Itinerary/ConferenceMatrixEventDetail.aspx?ses=O-42)
+       - [Precision Cortex Tractography for the Developing Brain
+       - [Pan Contrast Learning of MRI Segmentation for Healthy and Anomaly Cases: Faithful to Tissue Properties and MR] Physics(https://submissions.mirasmart.com/ISMRM2025/Itinerary/ConferenceMatrixEventDetail.aspx?ses=O-17)
    - title: "🎓 ISMRM Education Stipend"
      date: '2025-05-10'
      awarder: ISMRM
      summary: |
-       - Precision Cortex Tractography for the Developing Brain
+       - [Precision Cortex Tractography for the Developing Brain](https://submissions.mirasmart.com/ISMRM2025/Itinerary/ConferenceMatrixEventDetail.aspx?ses=O-42)
    - title: "🏅 Best Oral Presentation – 2023 UNC Radiology Symposium"
      date: '2023-10-01'
      awarder: UNC Department of Radiology
@@ -182,7 +182,7 @@ awards:
      date: '2021-05-10'
      awarder: ISMRM
      summary: |
-       - Quantifying Cell Size and Membrane Permeability with Microstructure Fingerprinting
+       - [Quantifying Cell Size and Membrane Permeability with Microstructure Fingerprinting](https://www.ismrm.org/21/program-files/TeaserSlides/TeasersPresentations/3404-Teaser.html)
    - title: "✈️ UNC Graduate Student Transportation Grant"
      date: '2020-06-01'
      awarder: UNC
