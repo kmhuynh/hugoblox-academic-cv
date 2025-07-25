@@ -140,10 +140,9 @@ education:
 #         percent: 80
 #         icon: camera
 
-#languages:
-#   - name: English
-#     percent: 100
-#   - name: Chinese
+languages:
+   - name: English
+   - name: Vietnamese
 #     percent: 75
 #   - name: Portuguese
 #     percent: 25
@@ -165,9 +164,9 @@ awards:
      date: '2025-05-10'
      awarder: ISMRM
      summary: |
-       Two Summa Cum Laude Awards for presentations](https://submissions.mirasmart.com/ISMRM2025/Itinerary/ConferenceMatrixEventDetail.aspx?ses=O-42)
-       - [Precision Cortex Tractography for the Developing Brain
-       - [Pan Contrast Learning of MRI Segmentation for Healthy and Anomaly Cases: Faithful to Tissue Properties and MR] Physics(https://submissions.mirasmart.com/ISMRM2025/Itinerary/ConferenceMatrixEventDetail.aspx?ses=O-17)
+       Two Summa Cum Laude Awards for presentations
+       - [Precision Cortex Tractography for the Developing Brain](https://submissions.mirasmart.com/ISMRM2025/Itinerary/ConferenceMatrixEventDetail.aspx?ses=O-42)
+       - [Pan Contrast Learning of MRI Segmentation for Healthy and Anomaly Cases: Faithful to Tissue Properties and MR Physics](https://submissions.mirasmart.com/ISMRM2025/Itinerary/ConferenceMatrixEventDetail.aspx?ses=O-17)
    - title: "🎓 ISMRM Education Stipend"
      date: '2025-05-10'
      awarder: ISMRM
