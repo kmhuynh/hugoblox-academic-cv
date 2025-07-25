@@ -170,6 +170,16 @@ awards:
        - Synthesize your own blockchain solutions
        - Gain an in-depth understanding of the specific mechanics of Bitcoin
        - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+   - title: TEST2
+     url: https://www.ismrm.org/25/docs/25-Summa.pdf
+     date: '2025-05-10'
+     awarder: ISMRM
+     icon: test_icon
+     summary: |
+       Learned:
+       - Synthesize your own blockchain solutions
+       - Gain an in-depth understanding of the specific mechanics of Bitcoin
+       - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
 #   - title: 'Object-Oriented Programming in R'
 #     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
 #     certificate_url: https://www.datacamp.com
