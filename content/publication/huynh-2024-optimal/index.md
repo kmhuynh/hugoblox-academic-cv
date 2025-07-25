@@ -11,16 +11,13 @@ publishDate: '2025-07-22T22:53:54.542405Z'
 publication_types:
 - article-journal
 publication: '*Patterns*'
----
 
-#Abstract:
-The spatial resolution attainable in diffusion magnetic resonance (MR) imaging is inherently limited by noise. The weaker signal associated with a smaller voxel size, especially at a high level of diffusion sensitization, is often buried under the noise floor owing to the non-Gaussian nature of the MR magnitude signal. Here, we show how the noise floor can be suppressed remarkably via optimal shrinkage of singular values associated with noise in complex-valued k-space data from multiple receiver channels. We explore and compare different low-rank signal matrix recovery strategies to utilize the inherently redundant information from multiple channels. In combination with background phase removal, the optimal strategy reduces the noise floor by 11 times. Our framework enables imaging with substantially improved resolution for precise characterization of tissue microstructure and white matter pathways without relying on expensive hardware upgrades and time-consuming acquisition repetitions, outperforming other related denoising methods.
+Abstract: The spatial resolution attainable in diffusion magnetic resonance (MR) imaging is inherently limited by noise. The weaker signal associated with a smaller voxel size, especially at a high level of diffusion sensitization, is often buried under the noise floor owing to the non-Gaussian nature of the MR magnitude signal. Here, we show how the noise floor can be suppressed remarkably via optimal shrinkage of singular values associated with noise in complex-valued k-space data from multiple receiver channels. We explore and compare different low-rank signal matrix recovery strategies to utilize the inherently redundant information from multiple channels. In combination with background phase removal, the optimal strategy reduces the noise floor by 11 times. Our framework enables imaging with substantially improved resolution for precise characterization of tissue microstructure and white matter pathways without relying on expensive hardware upgrades and time-consuming acquisition repetitions, outperforming other related denoising methods.
 
-#Summary:
-Diffusion magnetic resonance imaging (MRI) is a pivotal tool in pathology research and for the study of brain development. However, noise often undermines the intricate details expected to be gained from increasing the spatial resolution. Rather than resorting to time-consuming scans and costly hardware upgrades to combat noise, data redundancy in MRI can be leveraged to effectively reduce noise, unveil details, and enhance downstream analyses.
+Summary: Diffusion magnetic resonance imaging (MRI) is a pivotal tool in pathology research and for the study of brain development. However, noise often undermines the intricate details expected to be gained from increasing the spatial resolution. Rather than resorting to time-consuming scans and costly hardware upgrades to combat noise, data redundancy in MRI can be leveraged to effectively reduce noise, unveil details, and enhance downstream analyses.
 
 tags:
-- diffusion magnetic resonance imaging
+- diffusion MRI
 - noise removal
 - optimal shrinkage
 
