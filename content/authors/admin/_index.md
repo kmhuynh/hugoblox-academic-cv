@@ -165,57 +165,50 @@ awards:
      date: '2025-05-10'
      awarder: ISMRM
      summary: |
-       Two Summa Cum Laude Awards for abstracts
+       Two Summa Cum Laude Awards for presentations
        - Precision Cortex Tractography for the Developing Brain
        - Pan Contrast Learning of MRI Segmentation for Healthy and Anomaly Cases: Faithful to Tissue Properties and MR Physics
    - title: "🎓 ISMRM Education Stipend"
      date: '2025-05-10'
      awarder: ISMRM
+     summary: |
+       - Precision Cortex Tractography for the Developing Brain
    - title: "🏅 Best Oral Presentation – 2023 UNC Radiology Symposium"
-     date: '2023-03-01'
+     date: '2023-10-01'
      awarder: UNC Department of Radiology
-   - title: "🎤 Presentation: Microstructural Atlases of the Developing Brain"
-     date: '2023-03-01'
-     awarder: UNC Department of Radiology
+     summary: |
+       - Microstructural Atlases of the Developing Brain
    - title: "🎓 ISMRM Education Stipend"
-     date: '2021-05-01'
+     date: '2021-05-10'
      awarder: ISMRM
-   - title: "📜 Abstract: Quantifying Cell Size and Membrane Permeability with Microstructure Fingerprinting"
-     date: '2021-05-01'
-     awarder: ISMRM
+     summary: |
+       - Quantifying Cell Size and Membrane Permeability with Microstructure Fingerprinting
    - title: "✈️ UNC Graduate Student Transportation Grant"
-     date: '2020-03-01'
+     date: '2020-06-01'
      awarder: UNC
-   - title: "📜 Abstract: Dense Temporal Mapping of Cortical Microstructure in the Early Developing Brain"
-     date: '2020-03-01'
-     awarder: UNC
+     summary: |
+       - Dense Temporal Mapping of Cortical Microstructure in the Early Developing Brain
    - title: "✈️ UNC-BME Travel Award"
      date: '2020-03-01'
-     awarder: UNC/UNC-NCSU BME
-   - title: "📜 Abstract: Quantifying Intra-Soma Diffusion Properties via Spherical Mean Spectrum Imaging"
-     date: '2020-03-01'
-     awarder: UNC/UNC-NCSU BME
+     awarder: UNC-NCSU BME
+     summary: |
+       - Quantifying Intra-Soma Diffusion Properties via Spherical Mean Spectrum Imaging
    - title: "🏅 MICCAI Graduate Student Award"
      date: '2019-10-01'
      awarder: MICCAI Society
-   - title: "🧠 Paper: Probing Brain Micro-Architecture by Orientation Distribution Invariant Identification of Diffusion Compartments"
-     date: '2019-10-01'
-     awarder: MICCAI Society
-   - title: "🧪 Paper: Characterizing Non-Gaussian Diffusion in Heterogeneously Oriented Tissue Microenvironments"
-     date: '2019-10-01'
-     awarder: MICCAI Society
+     summary: |
+       - Probing Brain Micro-Architecture by Orientation Distribution Invariant Identification of Diffusion Compartments
+       - Characterizing Non-Gaussian Diffusion in Heterogeneously Oriented Tissue Microenvironments	 
    - title: "✈️ UNC-BME Travel Award"
      date: '2019-03-01'
-     awarder: UNC/UNC-NCSU BME
-   - title: "📜 Abstract: Dense Mapping of Microstructural Development in the Human Brain During the First Two Years of Life"
-     date: '2019-03-01'
-     awarder: UNC/UNC-NCSU BME
+     awarder: UNC-NCSU BME
+     summary: |
+       - Dense Mapping of Microstructural Development in the Human Brain During the First Two Years of Life
    - title: "🎓 ISMRM Education Stipend"
      date: '2018-05-01'
      awarder: ISMRM
-   - title: "📜 Abstract: Spatially Varying Signal-Drift Correction in Diffusion MRI"
-     date: '2018-05-01'
-     awarder: ISMRM
+     summary: |
+       - Spatially Varying Signal-Drift Correction in Diffusion MRI
 
 #   - title: 'Object-Oriented Programming in R'
 #     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
