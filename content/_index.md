@@ -42,8 +42,10 @@ sections:
       columns: '1'
   - block: resume-skills
     content:
-      title: Skills & Hobbies
+      title: Hobbies
       username: admin
+    design:
+      show_skill_percentage: false
   - block: collection
     id: papers
     content:

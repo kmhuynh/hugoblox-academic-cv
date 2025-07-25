@@ -112,46 +112,46 @@ work:
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
-   - name: Technical Skills
-     color: '#eeac02'
-     color_border: '#f0bf23'
-     items:
-       - name: Hiking
-         description: ''
-         percent: 60
-         icon: person-simple-walk
-       - name: Cats
-         description: ''
-         percent: 100
-         icon: cat
-       - name: Photography
-         description: ''
-         percent: 80
-         icon: camera
-       - name: Photography
-         description: 'aaa'
-         percent: 80
-         icon: custom/unc_crop_2 # must be in asset/media/icons/custom to work
+   # - name: Technical Skills
+   #   color: '#eeac02'
+   #   color_border: '#f0bf23'
+   #   items:
+   #     - name: Hiking
+   #       description: ''
+   #       percent: 60
+   #       icon: person-simple-walk
+   #     - name: Cats
+   #       description: ''
+   #       percent: 100
+   #       icon: cat
+   #     - name: Photography
+   #       description: ''
+   #       percent: 80
+   #       icon: camera
+   #     - name: Photography
+   #       description: 'aaa'
+   #       percent: 80
+   #       icon: custom/unc_crop_2 # must be in asset/media/icons/custom to work
    - name: Hobbies
      color: '#eeac02'
      color_border: '#f0bf23'
      items:
        - name: Hiking
          description: ''
-         percent: 60
+         percent: 0
          icon: person-simple-walk
        - name: Cats
          description: ''
-         percent: 100
+         percent: 0
          icon: cat
        - name: Photography
          description: ''
-         percent: 80
+         percent: 0
          icon: camera
-       - name: Photography
-         description: 'aaa'
-         percent: 80
-         icon: custom/unc_crop_2 # must be in asset/media/icons/custom to work
+       - name: Visting National Parks
+         description: 'I might be biased, but the Great Smoky Mountains are the best (closely followed by Sequoia-Kings).'
+         percent: 0
+         icon: custom/nps # must be in asset/media/icons/custom to work
 
 #languages:
 #   - name: English
