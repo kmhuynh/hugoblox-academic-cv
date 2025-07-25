@@ -165,7 +165,7 @@ awards:
      date: '2025-05-10'
      awarder: ISMRM
      icon: custom/test_icon
-	 icon_pack: custom
+     icon_pack: custom
      summary: |
        Learned:
        - Synthesize your own blockchain solutions
@@ -176,7 +176,7 @@ awards:
      date: '2025-05-10'
      awarder: ISMRM
      icon: test_icon
-	 icon_pack: custom
+     icon_pack: custom
      summary: |
        Learned:
        - Synthesize your own blockchain solutions
