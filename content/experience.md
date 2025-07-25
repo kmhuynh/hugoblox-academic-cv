@@ -18,6 +18,10 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
+      # Show a call-to-action button under your biography? (optional)
+      button:
+        text: Download CV
+        url: uploads/resume.pdf
   # - block: resume-skills
   #   content:
   #     title: Skills & Hobbies
