@@ -203,7 +203,7 @@ awards:
      date: '2019-03-01'
      awarder: UNC-NCSU BME
      summary: |
-       - Dense Mapping of Microstructural Development in the Human Brain During the First Two Years of Life
+       - [Dense Mapping of Microstructural Development in the Human Brain During the First Two Years of Life](https://drive.google.com/file/d/1AvKdXybSBLXowh818jsuOYWXg8a1P4Tb/view)
    - title: "🎓 ISMRM Education Stipend"
      date: '2018-05-01'
      awarder: ISMRM
