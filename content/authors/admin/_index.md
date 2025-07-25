@@ -172,7 +172,7 @@ awards:
    - title: "🏅 Best Oral Presentation – 2023 UNC Radiology Symposium"
      date: '2023-10-01'
      awarder: UNC Department of Radiology
-     icon: ismrm
+     icon: unc_som
      summary: |
        - Microstructural Atlases of the Developing Brain
    - title: "🎓 ISMRM Education Stipend"
