@@ -152,7 +152,6 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-
    - title: 🏅 ISMRM Summa Cum Laude Awards
      url: https://www.ismrm.org/25/docs/25-Summa.pdf
      date: '2025-05-10'
