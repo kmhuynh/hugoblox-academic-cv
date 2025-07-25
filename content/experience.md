@@ -1,5 +1,5 @@
 ---
-title: 'AAA'
+title: 'Experience'
 date: 2023-10-24
 type: landing
 
@@ -10,15 +10,6 @@ design:
 
 # Page sections
 sections:
-  - block: markdown
-    content:
-      title: "📄 My CV"
-      text: |
-        You can download my full CV here:
-      ## Show a call-to-action button under your biography? (optional)
-       button:
-         text: Download CV
-         url: uploads/resume.pdf
   - block: resume-experience
     content:
       username: admin
