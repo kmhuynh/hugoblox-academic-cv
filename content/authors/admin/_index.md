@@ -172,7 +172,7 @@ awards:
    - title: "🏅 Best Oral Presentation – 2023 UNC Radiology Symposium"
      date: '2023-10-01'
      awarder: UNC Department of Radiology
-     icon: unc_som
+     icon: unc_crop_2
      summary: |
        - Microstructural Atlases of the Developing Brain
    - title: "🎓 ISMRM Education Stipend"
@@ -190,7 +190,7 @@ awards:
    - title: "✈️ UNC-BME Travel Award"
      date: '2020-03-01'
      awarder: UNC-NCSU BME
-     icon: unc_crop
+     icon: unc_crop_2
      summary: |
        - [Quantifying Intra-Soma Diffusion Properties via Spherical Mean Spectrum Imaging](https://archive.ismrm.org/2020/4419.html)
    - title: "🏅 MICCAI Graduate Student Award"
@@ -202,11 +202,13 @@ awards:
    - title: "✈️ UNC-BME Travel Award"
      date: '2019-03-01'
      awarder: UNC-NCSU BME
+     icon: unc_crop_2
      summary: |
        - [Dense Mapping of Microstructural Development in the Human Brain During the First Two Years of Life](https://drive.google.com/file/d/1AvKdXybSBLXowh818jsuOYWXg8a1P4Tb/view)
    - title: "🎓 ISMRM Education Stipend"
      date: '2018-05-01'
      awarder: ISMRM
+     icon: ismrm
      summary: |
        - [Spatially Varying Signal-Drift Correction in Diffusion MRI](https://archive.ismrm.org/2018/1640.html)
 
