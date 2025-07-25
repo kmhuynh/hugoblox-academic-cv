@@ -86,9 +86,9 @@ work:
   - position: Postdoctoral Scholar
     company_name: Department of Radiology - UNC Chapel Hill
     company_url: 'https://www.med.unc.edu/bric/'
-    company_logo: /custom/stacked-peaks
+    company_logo: stacked-peaks
+    icon: stacked-peaks
     url: 'https://www.med.unc.edu/bric/'
-    icon: /custom/stacked-peaks
     date_start: 2021-01-01
     date_end: ''
     summary: |2-
@@ -97,6 +97,7 @@ work:
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
       - lorem ipsum dolor sit amet, consectetur adipiscing elit
   - position: Backend Software Engineer
+    icon: edX
     company_name: X
     company_url: ''
     company_logo: ''
