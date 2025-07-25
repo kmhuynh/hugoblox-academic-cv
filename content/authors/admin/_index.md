@@ -87,6 +87,8 @@ work:
     company_name: Department of Radiology - UNC Chapel Hill
     company_url: 'https://www.med.unc.edu/bric/'
     company_logo: /custom/stacked-peaks
+    url: 'https://www.med.unc.edu/bric/'
+    icon: /custom/stacked-peaks
     date_start: 2021-01-01
     date_end: ''
     summary: |2-
