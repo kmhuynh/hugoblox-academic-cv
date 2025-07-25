@@ -82,29 +82,29 @@ education:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#work:
-#  - position: Director of Cloud Infrastructure
-#    company_name: GenCoin
-#    company_url: ''
-#    company_logo: ''
-#    date_start: 2021-01-01
-#    date_end: ''
-#    summary: |2-
-#      Responsibilities include:
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#  - position: Backend Software Engineer
-#    company_name: X
-#    company_url: ''
-#    company_logo: ''
-#    date_start: 2016-01-01
-#    date_end: 2020-12-31
-#    summary: |
-#      Responsibilities include:
-#      - Migrated infrastructure to a new data center
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-#      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+work:
+  - position: Postdoctoral Scholar
+    company_name: Department of Radiology - UNC Chapel Hill
+    company_url: 'https://www.med.unc.edu/bric/'
+    company_logo: ''
+    date_start: 2021-01-01
+    date_end: ''
+    summary: |2-
+      Responsibilities include:
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - position: Backend Software Engineer
+    company_name: X
+    company_url: ''
+    company_logo: ''
+    date_start: 2016-01-01
+    date_end: 2020-12-31
+    summary: |
+      Responsibilities include:
+      - Migrated infrastructure to a new data center
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - lorem ipsum dolor sit amet, consectetur adipiscing elit
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -140,12 +140,11 @@ education:
 #         percent: 80
 #         icon: camera
 
-languages:
-   - name: English
-   - name: Vietnamese
+#languages:
+#   - name: English
+#   - name: Vietnamese
 #     percent: 75
-#   - name: Portuguese
-#     percent: 25
+
 
 # Awards.
 #   Add/remove as many awards below as you like.
