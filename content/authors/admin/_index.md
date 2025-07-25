@@ -177,13 +177,14 @@ awards:
        - Microstructural Atlases of the Developing Brain
    - title: "🎓 ISMRM Education Stipend"
      date: '2021-05-10'
-     icon: edX
+     icon: ismrm
      awarder: ISMRM
      summary: |
        - [Quantifying Cell Size and Membrane Permeability with Microstructure Fingerprinting](https://www.ismrm.org/21/program-files/TeaserSlides/TeasersPresentations/3404-Teaser.html)
    - title: "✈️ UNC Graduate Student Transportation Grant"
      date: '2020-06-01'
      awarder: UNC
+     icon: UNC_logo_RGB
      summary: |
        - [Dense Temporal Mapping of Cortical Microstructure in the Early Developing Brain](https://drive.google.com/file/d/1NYW-i2EKqQy4L-N_u6SpNpdv_dRNR1wS/view)
    - title: "✈️ UNC-BME Travel Award"
