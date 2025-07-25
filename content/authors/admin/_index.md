@@ -176,7 +176,7 @@ awards:
        - Microstructural Atlases of the Developing Brain
    - title: "🎓 ISMRM Education Stipend"
      date: '2021-05-10'
-     icon: unc_bric
+     icon: edX
      awarder: ISMRM
      summary: |
        - [Quantifying Cell Size and Membrane Permeability with Microstructure Fingerprinting](https://www.ismrm.org/21/program-files/TeaserSlides/TeasersPresentations/3404-Teaser.html)
