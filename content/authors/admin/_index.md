@@ -184,7 +184,7 @@ awards:
    - title: "✈️ UNC Graduate Student Transportation Grant"
      date: '2020-06-01'
      awarder: UNC
-     icon: UNC_logo_RGB
+     icon: UNCLogo_CarolinaBlue
      summary: |
        - [Dense Temporal Mapping of Cortical Microstructure in the Early Developing Brain](https://drive.google.com/file/d/1NYW-i2EKqQy4L-N_u6SpNpdv_dRNR1wS/view)
    - title: "✈️ UNC-BME Travel Award"
