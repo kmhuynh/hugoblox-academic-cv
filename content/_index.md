@@ -46,6 +46,7 @@ sections:
       username: admin
     design:
       show_skill_percentage: false
+      columns: 1
   - block: collection
     id: papers
     content:
