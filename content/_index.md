@@ -42,7 +42,7 @@ sections:
       columns: '1'
   - block: resume-skills
     content:
-      title: Hobbies
+      title: "🎒 My off hours"
       username: admin
     design:
       show_skill_percentage: false
