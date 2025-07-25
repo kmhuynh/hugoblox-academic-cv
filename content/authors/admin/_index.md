@@ -208,7 +208,7 @@ awards:
      date: '2018-05-01'
      awarder: ISMRM
      summary: |
-       - Spatially Varying Signal-Drift Correction in Diffusion MRI
+       - [Spatially Varying Signal-Drift Correction in Diffusion MRI](https://archive.ismrm.org/2018/1640.html)
 
 #   - title: 'Object-Oriented Programming in R'
 #     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
