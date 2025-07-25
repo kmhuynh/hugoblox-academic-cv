@@ -187,18 +187,18 @@ awards:
      date: '2020-06-01'
      awarder: UNC
      summary: |
-       - Dense Temporal Mapping of Cortical Microstructure in the Early Developing Brain
+       - [Dense Temporal Mapping of Cortical Microstructure in the Early Developing Brain](https://drive.google.com/file/d/1NYW-i2EKqQy4L-N_u6SpNpdv_dRNR1wS/view)
    - title: "✈️ UNC-BME Travel Award"
      date: '2020-03-01'
      awarder: UNC-NCSU BME
      summary: |
-       - Quantifying Intra-Soma Diffusion Properties via Spherical Mean Spectrum Imaging
+       - [Quantifying Intra-Soma Diffusion Properties via Spherical Mean Spectrum Imaging](https://archive.ismrm.org/2020/4419.html)
    - title: "🏅 MICCAI Graduate Student Award"
      date: '2019-10-01'
      awarder: MICCAI Society
      summary: |
-       - Probing Brain Micro-Architecture by Orientation Distribution Invariant Identification of Diffusion Compartments
-       - Characterizing Non-Gaussian Diffusion in Heterogeneously Oriented Tissue Microenvironments	 
+       - [Probing Brain Micro-Architecture by Orientation Distribution Invariant Identification of Diffusion Compartments](https://pubmed.ncbi.nlm.nih.gov/34447975/)
+       - [Characterizing Non-Gaussian Diffusion in Heterogeneously Oriented Tissue Microenvironments](https://pubmed.ncbi.nlm.nih.gov/34447976/)
    - title: "✈️ UNC-BME Travel Award"
      date: '2019-03-01'
      awarder: UNC-NCSU BME
