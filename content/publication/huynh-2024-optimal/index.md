@@ -30,7 +30,7 @@ featured: true
 links:
 #- name: Custom Link
 url: https://www.cell.com/patterns/fulltext/S2666-3899(24)00053-9?uuid=uuid%3A18a51a2c-bf53-4b63-90e6-b31556f4aa18
-url_pdf: https://www.cell.com/action/showPdf?pii=S2666-3899%2824%2900053-9
+url_pdf: https://www.cell.com/patterns/pdfExtended/S2666-3899(24)00053-9
 url_code: 'https://osf.io/f384h/'
 url_dataset: '#'
 url_poster: '#'
