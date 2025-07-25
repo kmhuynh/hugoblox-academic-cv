@@ -147,7 +147,8 @@ skills:
        - name: Kayaking
          description: ''
          percent: 0
-         icon: 🛶
+         icon: :smile:
+         icon_pack: "emoji"
        - name: Visting National Parks
          description: 'I might be biased, but the Great Smoky Mountains are the best (closely followed by Sequoia-Kings).'
          percent: 0
