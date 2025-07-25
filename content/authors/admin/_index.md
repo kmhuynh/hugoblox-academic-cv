@@ -184,13 +184,13 @@ awards:
    - title: "✈️ UNC Graduate Student Transportation Grant"
      date: '2020-06-01'
      awarder: UNC
-     icon: UNCLogo_CarolinaBlue
+     icon: unc_crop_2
      summary: |
        - [Dense Temporal Mapping of Cortical Microstructure in the Early Developing Brain](https://drive.google.com/file/d/1NYW-i2EKqQy4L-N_u6SpNpdv_dRNR1wS/view)
    - title: "✈️ UNC-BME Travel Award"
      date: '2020-03-01'
      awarder: UNC-NCSU BME
-     icon: unc_bme
+     icon: unc_crop
      summary: |
        - [Quantifying Intra-Soma Diffusion Properties via Spherical Mean Spectrum Imaging](https://archive.ismrm.org/2020/4419.html)
    - title: "🏅 MICCAI Graduate Student Award"
