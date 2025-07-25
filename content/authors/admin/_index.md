@@ -157,7 +157,7 @@ awards:
      url: https://www.ismrm.org/25/docs/25-Summa.pdf
      date: '2025-05-10'
      awarder: ISMRM
-     icon: /custom/headphones-solid-full
+     icon: /custom/correction-tape-svgrepo-com
      summary: |
        Two Summa Cum Laude Awards for presentations
        - [Precision Cortex Tractography for the Developing Brain](https://submissions.mirasmart.com/ISMRM2025/Itinerary/ConferenceMatrixEventDetail.aspx?ses=O-42)
@@ -165,7 +165,7 @@ awards:
    - title: "🎓 ISMRM Education Stipend"
      date: '2025-05-10'
      awarder: ISMRM
-     icon: /custom/stacked-peaks
+     icon: stacked-peaks
      summary: |
        - [Precision Cortex Tractography for the Developing Brain](https://submissions.mirasmart.com/ISMRM2025/Itinerary/ConferenceMatrixEventDetail.aspx?ses=O-42)
    - title: "🏅 Best Oral Presentation – 2023 UNC Radiology Symposium"
