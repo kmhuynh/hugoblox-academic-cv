@@ -40,6 +40,10 @@ sections:
        I believe the solutions we’re looking for are often already out there — scattered among us. You might hold the key to a problem I’m working on, and I might have insight into yours. Let’s connect and find out together. 😃
     design:
       columns: '1'
+  - block: resume-skills
+    content:
+      title: Skills & Hobbies
+      username: admin
   - block: collection
     id: papers
     content:
