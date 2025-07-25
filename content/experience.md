@@ -1,5 +1,5 @@
 ---
-title: 'Experience'
+title: ''
 date: 2023-10-24
 type: landing
 
@@ -10,6 +10,15 @@ design:
 
 # Page sections
 sections:
+  - block: markdown
+    content:
+      title: 'CV'
+      subtitle: ''
+      text: ""
+      ## Show a call-to-action button under your biography? (optional)
+       button:
+         text: Download CV
+         url: uploads/resume.pdf
   - block: resume-experience
     content:
       username: admin
@@ -18,10 +27,6 @@ sections:
       date_format: 'January 2006'
       # Education or Experience section first?
       is_education_first: false
-      # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
   # - block: resume-skills
   #   content:
   #     title: Skills & Hobbies
