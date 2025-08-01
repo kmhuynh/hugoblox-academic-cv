@@ -124,16 +124,12 @@ sections:
       background:
         color: 'gray-50'
         
-  - block: cta-card
+  - block: markdown
     content:
-      title: Need Custom Tools?
-      text: Looking for specialized neuroimaging solutions or collaborative development? Let's discuss how we can advance your research together.
-      button:
-        text: Contact Me
-        url: mailto:kmhuynh@med.unc.edu
+      text: |-
+        ---
+        
+        **💬 Need Custom Tools?** Looking for specialized neuroimaging solutions? [Contact me](mailto:kmhuynh@med.unc.edu) to discuss collaborative development.
     design:
-      card:
-        # Card background color (CSS class)
-        css_class: "bg-primary-700"
-        css_style: ""
+      columns: '1'
 ---

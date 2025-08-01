@@ -46,35 +46,35 @@ sections:
        I believe the solutions we're looking for are often already out there — scattered among us. You might hold the key to a problem I'm working on, and I might have insight into yours. Let's connect and find out together. 😃 [📧](mailto:kmhuynh@med.unc.edu)
     design:
       columns: '1'  # Number of columns (1 or 2)
-  # RESEARCH IMPACT METRICS SECTION
-  - block: markdown
-    content:
-      title: '📊 Research Impact'
-      text: |-
-        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
-          <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
-            <div class="text-2xl font-bold text-primary-600 dark:text-primary-400">185+</div>
-            <div class="text-sm text-gray-600 dark:text-gray-400">Citations</div>
-            <div class="text-xs text-gray-500">Google Scholar</div>
-          </div>
-          <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
-            <div class="text-2xl font-bold text-primary-600 dark:text-primary-400">8</div>
-            <div class="text-sm text-gray-600 dark:text-gray-400">h-index</div>
-            <div class="text-xs text-gray-500">Research Impact</div>
-          </div>
-          <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
-            <div class="text-2xl font-bold text-primary-600 dark:text-primary-400">1.2K+</div>
-            <div class="text-sm text-gray-600 dark:text-gray-400">Code Downloads</div>
-            <div class="text-xs text-gray-500">OSF & GitHub</div>
-          </div>
-          <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
-            <div class="text-2xl font-bold text-primary-600 dark:text-primary-400">15+</div>
-            <div class="text-sm text-gray-600 dark:text-gray-400">Publications</div>
-            <div class="text-xs text-gray-500">Peer-reviewed</div>
-          </div>
-        </div>
-    design:
-      columns: '1'
+  # RESEARCH IMPACT METRICS SECTION (HIDDEN - uncomment to enable)
+  # - block: markdown
+  #   content:
+  #     title: '📊 Research Impact'
+  #     text: |-
+  #       <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+  #         <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+  #           <div class="text-2xl font-bold text-primary-600 dark:text-primary-400">185+</div>
+  #           <div class="text-sm text-gray-600 dark:text-gray-400">Citations</div>
+  #           <div class="text-xs text-gray-500">Google Scholar</div>
+  #         </div>
+  #         <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+  #           <div class="text-2xl font-bold text-primary-600 dark:text-primary-400">8</div>
+  #           <div class="text-sm text-gray-600 dark:text-gray-400">h-index</div>
+  #           <div class="text-xs text-gray-500">Research Impact</div>
+  #         </div>
+  #         <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+  #           <div class="text-2xl font-bold text-primary-600 dark:text-primary-400">1.2K+</div>
+  #           <div class="text-sm text-gray-600 dark:text-gray-400">Code Downloads</div>
+  #           <div class="text-xs text-gray-500">OSF & GitHub</div>
+  #         </div>
+  #         <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+  #           <div class="text-2xl font-bold text-primary-600 dark:text-primary-400">15+</div>
+  #           <div class="text-sm text-gray-600 dark:text-gray-400">Publications</div>
+  #           <div class="text-xs text-gray-500">Peer-reviewed</div>
+  #         </div>
+  #       </div>
+  #   design:
+  #     columns: '1'
   - block: resume-skills
     content:
       title: "🎒 My off hours"

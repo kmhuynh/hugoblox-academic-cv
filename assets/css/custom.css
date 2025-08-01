@@ -126,3 +126,34 @@ div.abstract::before {
 .dark div.abstract::before {
   color: #f9fafb;
 }
+
+/* COMPACT AWARDS STYLING */
+/* Make awards panels smaller and easier to scan */
+.resume-awards .award-item,
+[class*="award"] .card,
+.awards-section .card {
+  padding: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+.resume-awards .award-item .card-body,
+[class*="award"] .card-body {
+  padding: 0.75rem !important;
+}
+
+.resume-awards .award-item h3,
+[class*="award"] h3 {
+  font-size: 1.1rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.resume-awards .award-item .card-text,
+[class*="award"] .card-text {
+  font-size: 0.9rem !important;
+  line-height: 1.4 !important;
+}
+
+.resume-awards .award-item .text-muted,
+[class*="award"] .text-muted {
+  font-size: 0.85rem !important;
+}
