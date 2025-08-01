@@ -123,13 +123,4 @@ sections:
       columns: '1'
       background:
         color: 'gray-50'
-        
-  - block: markdown
-    content:
-      text: |-
-        ---
-        
-        **💬 Need Custom Tools?** Looking for specialized neuroimaging solutions? [Contact me](mailto:kmhuynh@med.unc.edu) to discuss collaborative development.
-    design:
-      columns: '1'
 ---

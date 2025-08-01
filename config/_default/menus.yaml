@@ -8,9 +8,9 @@ main:
   - name: Home
     url: /
     weight: 10
-  # PAPERS: Links to #papers section on homepage  
+  # PAPERS: Links to #highlights section on homepage  
   - name: Papers
-    url: /#papers
+    url: /#highlights
     weight: 11
   # TALKS: Links to #talks section on homepage
   - name: Talks
