@@ -39,12 +39,14 @@ outputs:
   section: [HTML, RSS]
 imaging:
   resampleFilter: lanczos
-  quality: 95
+  quality: 100
   anchor: smart
-  # Higher quality for better image resolution
-  # 95 = high quality, 80 = default (lower quality)
-  # Disable WebP conversion for publications to preserve quality
-  formats: [original, webp]
+  # MAXIMUM QUALITY SETTINGS - No compression
+  # 100 = no compression, preserves original quality
+  # Keep original format to avoid any quality loss
+  formats: [original]
+  # Disable automatic resizing to preserve full resolution
+  resizeQuality: 100
 timeout: 600000
 taxonomies:
   author: authors
