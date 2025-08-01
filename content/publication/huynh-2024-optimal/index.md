@@ -27,9 +27,13 @@ abstract: |
   Diffusion magnetic resonance imaging (MRI) is a pivotal tool in pathology research and for the study of brain development. However, noise often undermines the intricate details expected to be gained from increasing the spatial resolution. Rather than resorting to time-consuming scans and costly hardware upgrades to combat noise, data redundancy in MRI can be leveraged to effectively reduce noise, unveil details, and enhance downstream analyses.
   
   **Key Highlights:**
-  • MRI resolution is bounded by the level of thermal noise  
-  • Mitigating noise typically requires time-consuming scans or expensive hardware upgrades  
-  • We leverage redundancy in multi-channel-complex-valued data to reduce noise  
+  
+  • MRI resolution is bounded by the level of thermal noise
+  
+  • Mitigating noise typically requires time-consuming scans or expensive hardware upgrades
+  
+  • We leverage redundancy in multi-channel-complex-valued data to reduce noise
+  
   • Noise reduction improves downstream analyses
 
 # Summary. An optional shortened abstract.

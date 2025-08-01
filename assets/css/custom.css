@@ -101,3 +101,28 @@ div.abstract,
   word-spacing: -0.1em;
   line-height: 1.6;
 }
+
+/* CHANGE ABSTRACT SECTION TITLE */
+/* Hide the default "Abstract" heading and replace with custom title */
+.publication-header h2:contains("Abstract"),
+h2:contains("Abstract"),
+.abstract-heading {
+  display: none;
+}
+
+/* Add custom section title before abstract content */
+.abstract::before,
+div.abstract::before {
+  content: "The Bigger Picture";
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #374151;
+}
+
+/* Dark mode support for custom title */
+.dark .abstract::before,
+.dark div.abstract::before {
+  color: #f9fafb;
+}
