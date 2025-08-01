@@ -56,34 +56,35 @@ nav, header, .navbar {
 }
 
 /* CUSTOM INTERESTS SECTION ICONS */
-/* Replace default bullet points with Font Awesome research icons */
-.interests-section ul li:before,
-div[data-section="interests"] ul li:before,
-.resume-interests ul li:before {
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
-  content: "\f52e"; /* fa-microscope */
-  margin-right: 0.5em;
-  color: #059669; /* Match theme color */
+/* Target Hugo Blox interests rendering in resume-biography blocks */
+/* Use the same graduation cap icon as education section */
+.prose ul li:has(.hb-icon):before,
+ul li:has(.hb-icon):before,
+.interests ul li:before,
+[class*="interests"] ul li:before {
+  content: "";
+  display: inline-block;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-right: 0.5rem;
+  margin-top: 0.25rem;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23059669" viewBox="0 0 256 256"><path d="M251.76,88.94l-120-64a8,8,0,0,0-7.52,0l-120,64a8,8,0,0,0,0,14.12L32,117.87v48.42a15.91,15.91,0,0,0,4.06,10.65C49.16,191.53,78.51,216,128,216a130,130,0,0,0,48-8.76V240a8,8,0,0,0,16,0V199.51a115.63,115.63,0,0,0,27.94-22.57A15.91,15.91,0,0,0,224,166.29V117.87l27.76-14.81a8,8,0,0,0,0-14.12ZM128,200c-43.27,0-68.72-21.14-80-33.71V126.4l76.24,40.66a8,8,0,0,0,7.52,0L176,143.47v46.34C163.4,195.69,147.52,200,128,200Zm80-33.75a97.83,97.83,0,0,1-16,14.25V134.93l16-8.53ZM188,118.94l-.22-.13-56-29.87a8,8,0,0,0-7.52,14.12L171,128l-43,22.93L25,96,128,41.07,231,96Z"></path></svg>');
+  background-size: contain;
+  background-repeat: no-repeat;
+  vertical-align: top;
 }
 
-/* Use different Font Awesome icons for different interests */
-.interests-section ul li:nth-child(1):before {
-  content: "\f5dc"; /* fa-brain for neurodevelopment */
+/* Alternative: Use research-specific icons instead of graduation cap */
+/* Uncomment and modify the selectors below if you prefer different icons for each interest */
+/*
+.interests ul li:nth-child(1):before {
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23059669" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>');
 }
-
-.interests-section ul li:nth-child(2):before {
-  content: "\f5d2"; /* fa-atom for MR physics */
-}
-
-.interests-section ul li:nth-child(3):before {
-  content: "\f52e"; /* fa-microscope for modeling */
-}
+*/
 
 /* Remove default list styling for interests */
-.interests-section ul,
-div[data-section="interests"] ul,
-.resume-interests ul {
+.interests ul,
+[class*="interests"] ul {
   list-style: none;
   padding-left: 0;
 }
