@@ -127,6 +127,33 @@ div.abstract::before {
   color: #f9fafb;
 }
 
-/* AWARDS NOW USE TIMELINE FORMAT */
-/* Awards now use the same timeline layout as Experience and Education */
-/* No additional CSS needed - they inherit the clean timeline styling */
+/* COMPACT AWARDS STYLING */
+/* Target the specific Hugo Blox awards elements */
+.resume-awards .card,
+.resume-awards .experience-item,
+.resume-awards li {
+  margin-bottom: 0.75rem !important;
+  padding: 0.5rem !important;
+}
+
+.resume-awards .card-body {
+  padding: 0.5rem !important;
+}
+
+.resume-awards h3,
+.resume-awards .card-title {
+  font-size: 1rem !important;
+  margin-bottom: 0.5rem !important;
+  line-height: 1.3 !important;
+}
+
+.resume-awards .card-text,
+.resume-awards p {
+  font-size: 0.85rem !important;
+  line-height: 1.4 !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.resume-awards .text-muted {
+  font-size: 0.8rem !important;
+}
