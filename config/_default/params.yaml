@@ -63,3 +63,6 @@ features:
 extensions:
   academicons:
     enable: true
+
+# Custom CSS
+plugins_css: ["custom"]

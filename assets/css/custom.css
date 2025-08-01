@@ -1,0 +1,31 @@
+/* Custom CSS for text justification and styling */
+
+/* Justify text for all paragraphs, but not headings or lists */
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* Ensure lists and headings remain left-aligned */
+h1, h2, h3, h4, h5, h6 {
+  text-align: left;
+}
+
+ul, ol {
+  text-align: left;
+}
+
+/* Center align specific sections if needed */
+.text-center {
+  text-align: center;
+}
+
+/* Ensure buttons and form elements are not justified */
+button, .btn, input, select, textarea {
+  text-align: center;
+}
+
+/* Fix any justified text in navigation or headers */
+nav, header, .navbar {
+  text-align: left;
+}
