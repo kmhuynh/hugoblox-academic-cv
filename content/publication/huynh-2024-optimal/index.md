@@ -78,9 +78,9 @@ projects: []
 slides: ""
 ---
 
-{{% callout note %}}
+{{< callout type="note" >}}
 **🚀 Key Breakthrough**: We achieved an **11x reduction** in noise floor - enabling unprecedented brain imaging detail without expensive hardware upgrades.
-{{% /callout %}}
+{{< /callout >}}
 
 ## 🧠 The Big Picture: Breaking Through the Noise Barrier
 
@@ -96,10 +96,10 @@ The key insight lies in leveraging the redundant information inherent in multi-c
 
 > 🎵 **Think of it like this**: Having multiple microphones recording the same concert - while each individual recording might be noisy, combining them intelligently can reveal the true music underneath.
 
-{{% callout warning %}}
+{{< callout type="warning" >}}
 **Traditional Approach**: Accept noise as an inevitable limitation  
 **Our Approach**: Actively break through the noise barrier using optimal shrinkage
-{{% /callout %}}
+{{< /callout >}}
 
 ---
 
@@ -116,12 +116,21 @@ This breakthrough has profound implications for the entire neuroimaging field:
 
 ---
 
-## 🔬 Technical Abstract
+## 🌟 The Bigger Picture
+
+Diffusion magnetic resonance imaging (MRI) is a pivotal tool in pathology research and for the study of brain development. However, noise often undermines the intricate details expected to be gained from increasing the spatial resolution. Rather than resorting to time-consuming scans and costly hardware upgrades to combat noise, data redundancy in MRI can be leveraged to effectively reduce noise, unveil details, and enhance downstream analyses.
+
+### ✨ Key Highlights
+
+• **MRI resolution is bounded by the level of thermal noise**  
+• **Mitigating noise typically requires time-consuming scans or expensive hardware upgrades**  
+• **We leverage redundancy in multi-channel-complex-valued data to reduce noise**  
+• **Noise reduction improves downstream analyses**
 
 <details>
-<summary><strong>Click to expand technical details</strong></summary>
+<summary><strong>🔬 Technical Abstract (Click to expand)</strong></summary>
 
-The spatial resolution attainable in diffusion magnetic resonance (MR) imaging is inherently limited by noise. The weaker signal associated with a smaller voxel size, especially at a high level of diffusion sensitization, is often buried under the noise floor owing to the non-Gaussian nature of the MR magnitude signal. Here, we show how the noise floor can be suppressed remarkably via optimal shrinkage of singular values associated with noise in complex-valued k-space data from multiple receiver channels. We explore and compare different low-rank signal matrix recovery strategies to utilize the inherently redundant information from multiple channels. In combination with background phase removal, the optimal strategy reduces the noise floor by 11 times. Our framework enables imaging with substantially improved resolution for precise characterization of tissue microstructure and white matter pathways without relying on expensive hardware upgrades and time-consuming acquisition repetitions, outperforming other related denoising methods.
+The spatial resolution attainable in diffusion magnetic resonance (MR) imaging is inherently limited by noise. The weaker signal associated with a smaller voxel size, especially at a high level of diffusion sensitization, is often buried under the noise floor owing to the non-Gaussian nature of the MR magnitude signal. Here, we show how the noise floor can be suppressed remarkably via optimal shrinkage of singular values associated with noise in complex-valued k-space data from multiple receiver channels. We explore and compare different low-rank signal matrix recovery strategies to utilize the inherently redundant information from multiple channels. In combination with background phase removal, the optimal strategy reduces the noise floor by 11 times. Our framework enables imaging with substantially improved resolution for precise characterization of tissue microstructure and white matter pathways without relying on expensive hardware upgrades and time-intensive acquisition repetitions, outperforming other related denoising methods.
 
 </details>
 
@@ -136,9 +145,9 @@ Our framework enables precise characterization of:
 - 📈 **Developmental changes** in brain connectivity
 - 🏥 **Pathological alterations** in neurological conditions
 
-{{% callout info %}}
-**🌍 Open Science Commitment**: All code and data are freely available to accelerate reproducible research in the neuroimaging community.
-{{% /callout %}}
+{{< callout type="info" >}}
+**🌍 Open Science Commitment**: All [code and data](https://osf.io/f384h/) are freely available to accelerate reproducible research in the neuroimaging community.
+{{< /callout >}}
 
 ---
 
