@@ -6,7 +6,8 @@
       "WebFetch(domain:www.cell.com)",
       "Bash(mkdir:*)",
       "Bash(hugo:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(git add:*)"
     ],
     "deny": []
   }
