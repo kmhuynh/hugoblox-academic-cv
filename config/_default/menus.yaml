@@ -16,11 +16,11 @@ main:
   - name: News
     url: /#news
     weight: 13
-  - name: CV & Awards
+  - name: About
     url: experience/
     weight: 20
-  - name: Blog
-    url: /post/
+  - name: Posts & Insights
+    url: /posts/
     weight: 30
   # - name: Works
   #   url: Works/

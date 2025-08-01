@@ -1,5 +1,5 @@
 ---
-title: 'CV & Awards'
+title: 'About'
 date: 2023-10-24
 type: landing
 
@@ -10,6 +10,15 @@ design:
 
 # Page sections
 sections:
+  - block: markdown
+    content:
+      title: ''
+      text: |
+        {{< button href="uploads/resume.pdf" target="_blank" >}}
+        📄 Download CV
+        {{< /button >}}
+    design:
+      css_class: 'text-center'
   - block: resume-experience
     content:
       username: admin
