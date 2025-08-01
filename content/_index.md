@@ -1,20 +1,25 @@
 ---
+# HOMEPAGE CONFIGURATION
 # Leave the homepage title empty to use the site title
 title: ""
 date: 2022-10-24
 type: landing
 
 design:
-  # Default section spacing
+  # Default section spacing - adjust this to change space between sections
   spacing: "6rem"
 
+# SECTIONS: Add/remove/reorder sections by modifying this list
+# Each section is a "block" with different types available
 sections:
+  # BIOGRAPHY SECTION: Shows your photo, name, role, and bio
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
+      username: admin  # This references content/authors/admin/_index.md
       text: ""
        # Show a call-to-action button under your biography? (optional)
+      # CV button moved to "About" page - uncomment below to restore here
       # button:
       #   text: Download CV
       #   url: uploads/resume.pdf
@@ -30,33 +35,36 @@ sections:
           size: cover
           position: center
           parallax: false
+  # RESEARCH DESCRIPTION SECTION: Markdown text block
   - block: markdown
     content:
-      title: '📚 My Research'
-      subtitle: ''
+      title: '📚 My Research'  # Change this title as needed
+      subtitle: ''  # Optional subtitle
       text: |-
+       # EDIT THIS TEXT: Replace with your research description
        I'm a postdoc in <span class="no-break">Dr. Pew-Thian Yap's</span> lab at UNC-Chapel Hill, where I build tools to better understand how the brain changes over time — through development, aging, and disease. I'm especially focused on creating normative brain charts, like the height and weight charts used in pediatric care, to help spot when something's not quite right. At the heart of it, I'm driven by a simple goal - to turn brain scans into practical tools that make healthcare better — so no child is left behind just because we didn't see the signs soon enough.
 
-       I believe the solutions we’re looking for are often already out there — scattered among us. You might hold the key to a problem I’m working on, and I might have insight into yours. Let’s connect and find out together. 😃
+       I believe the solutions we're looking for are often already out there — scattered among us. You might hold the key to a problem I'm working on, and I might have insight into yours. Let's connect and find out together. 😃
     design:
-      columns: '1'
+      columns: '1'  # Number of columns (1 or 2)
   - block: resume-skills
     content:
       title: "🎒 My off hours"
       username: admin
     design:
       show_skill_percentage: false
+  # FEATURED PUBLICATIONS SECTION: Shows papers marked as featured=true
   - block: collection
-    id: papers
+    id: papers  # This creates anchor link /#papers
     content:
-      title: Featured Publications
+      title: Featured Publications  # Change section title here
       filters:
         folders:
-          - publication
-        featured_only: true
+          - publication  # Looks in content/publication/ folder
+        featured_only: true  # Only shows papers with featured: true
     design:
-      view: article-grid
-      columns: 2
+      view: article-grid  # Other options: citation, card, masonry
+      columns: 2  # Number of columns (1-4)
   - block: collection
     content:
       title: Recent Publications

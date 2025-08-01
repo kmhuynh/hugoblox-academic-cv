@@ -1,6 +1,10 @@
-/* Custom CSS for text justification and styling */
+/* CUSTOM CSS CONFIGURATION
+ * This file overrides Hugo Blox default styles
+ * Location: assets/css/custom.css
+ * Loaded via: config/_default/params.yaml -> plugins_css: ["custom"]
+ */
 
-/* Justify text for all paragraphs, but not headings or lists */
+/* TEXT JUSTIFICATION: Make paragraphs use justified text alignment */
 p, .abstract, .summary, .article-summary, .content p, .post-content p, .page-content p, div.abstract, div.summary {
   text-align: justify !important;
   text-justify: inter-word;
@@ -40,7 +44,8 @@ nav, header, .navbar {
   text-align: left;
 }
 
-/* Prevent line breaks in names and titles */
+/* PREVENT NAME LINE BREAKS: Keep names together on one line */
+/* Usage: <span class="no-break">Dr. Pew-Thian Yap</span> */
 .no-break, .name, .person-name {
   white-space: nowrap;
 }

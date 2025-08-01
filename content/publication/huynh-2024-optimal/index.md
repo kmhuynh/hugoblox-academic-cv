@@ -1,12 +1,15 @@
 ---
+# PUBLICATION FRONTMATTER CONFIGURATION
+# Edit these fields for each publication
+
 title: "Optimal shrinkage denoising breaks the noise floor in high-resolution diffusion MRI"
-authors:
-- admin
+authors:  # List authors, use "admin" for yourself, others by name
+- admin  # This references your profile in content/authors/admin/
 - Wei-Tang Chang
 - Ye Wu
 - Pew-Thian Yap
-date: '2024-03-08'
-doi: '10.1016/j.patter.2024.100954'
+date: '2024-03-08'  # Publication date (YYYY-MM-DD)
+doi: '10.1016/j.patter.2024.100954'  # DOI identifier
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2024-03-08T00:00:00Z"
@@ -32,14 +35,16 @@ tags:
 - Medical Imaging
 - Brain Imaging
 - Signal Processing
-featured: true
+featured: true  # Set to true to show in "Featured Publications" section
 
+# LINKS CONFIGURATION: Add links to paper resources
 # Custom links (optional).
 links:
-- name: Paper
+- name: Paper  # Custom link name
   url: 'https://www.cell.com/patterns/fulltext/S2666-3899(24)00053-9'
+# Standard URL fields - Hugo Blox will create buttons automatically
 url_pdf: 'https://www.cell.com/cms/10.1016/j.patter.2024.100954/attachment/1e23d03e-3702-430e-9413-26f8e20e1417/mmc2.pdf'
-url_code: 'https://osf.io/f384h/'
+url_code: 'https://osf.io/f384h/'  # GitHub, OSF, etc.
 url_dataset: ''
 url_poster: ''
 url_project: ''
