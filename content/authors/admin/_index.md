@@ -57,7 +57,7 @@ education:
     date_start: 2017-08-15
     date_end: 2022-05-10
     summary: |
-      Computational Tools For Studying Microstructural Development Of The Human Brain With Diffusion Magnetic Resonance Imaging. Supervised by [Dr. Pew-Thian Yap](https://www.yaplab.io). This was the defining moment of my career. I’m incredibly grateful to my PI and the amazing team here at UNC. If you're thinking about joining his lab, don’t hesitate to reach out - I'd be happy to share my experience.
+      Computational Tools For Studying Microstructural Development Of The Human Brain With Diffusion Magnetic Resonance Imaging. Supervised by [<span class="no-break">Dr. Pew-Thian Yap</span>](https://www.yaplab.io). This was the defining moment of my career. I'm incredibly grateful to my PI and the amazing team here at UNC. If you're thinking about joining his lab, don't hesitate to reach out - I'd be happy to share my experience.
     button:
       text: 'Read Dissertation'
       url: 'https://cdr.lib.unc.edu/concern/dissertations/6d570652h'
@@ -77,7 +77,7 @@ education:
     date_start: 2012-09-01
     date_end: 2016-05-20
     summary: |
-      This was a turning point in my MRI journey. I was fortunate to work with Dr. Loan Vo on MRI clinical study, MR-compatible hardware design, structural, functional, and diffusional MRI analysis. I lived on the JISC mailing list and Dr. Andrew Jahn’s YouTube [videos](https://www.youtube.com/watch?v=dBDmIhSWfnM). It was chaotic, challenging—and one of the most fun times I’ve had in research.
+      This was a turning point in my MRI journey. I was fortunate to work with <span class="no-break">Dr. Loan Vo</span> on MRI clinical study, MR-compatible hardware design, structural, functional, and diffusional MRI analysis. I lived on the JISC mailing list and <span class="no-break">Dr. Andrew Jahn's</span> YouTube [videos](https://www.youtube.com/watch?v=dBDmIhSWfnM). It was chaotic, challenging—and one of the most fun times I've had in research.
   #     Courses included:
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
   #     - lorem ipsum dolor sit amet, consectetur adipiscing elit
@@ -246,4 +246,4 @@ awards:
 
 ## About Me
 
-I am a postdoc in radiology at UNC Chapel Hill. Since 2017, I’ve been working with Dr. Pew-Thian Yap on MR reconstruction, signal representation, noise removal, tractography, and microstructure imaging using diffusion MRI data with applications in neurodevelopment.
+I am a postdoc in radiology at UNC Chapel Hill. Since 2017, I've been working with <span class="no-break">Dr. Pew-Thian Yap</span> on MR reconstruction, signal representation, noise removal, tractography, and microstructure imaging using diffusion MRI data with applications in neurodevelopment.

@@ -1,8 +1,8 @@
 /* Custom CSS for text justification and styling */
 
 /* Justify text for all paragraphs, but not headings or lists */
-p {
-  text-align: justify;
+p, .abstract, .summary, .article-summary, .content p, .post-content p, .page-content p, div.abstract, div.summary {
+  text-align: justify !important;
   text-justify: inter-word;
   hyphens: auto;
   -webkit-hyphens: auto;
@@ -12,7 +12,7 @@ p {
 }
 
 /* Don't justify very short paragraphs */
-p {
+p, .abstract, .summary, .article-summary, .content p, .post-content p, .page-content p {
   text-align-last: left;
 }
 
@@ -38,4 +38,14 @@ button, .btn, input, select, textarea {
 /* Fix any justified text in navigation or headers */
 nav, header, .navbar {
   text-align: left;
+}
+
+/* Prevent line breaks in names and titles */
+.no-break, .name, .person-name {
+  white-space: nowrap;
+}
+
+/* Allow breaking only at specific points for long names */
+.name-break-allowed {
+  white-space: pre-wrap;
 }
