@@ -56,12 +56,14 @@ nav, header, .navbar {
 }
 
 /* CUSTOM INTERESTS SECTION ICONS */
-/* Target Hugo Blox interests rendering in resume-biography blocks */
-/* Use pen icon for research interests */
-.prose ul li:has(.hb-icon):before,
-ul li:has(.hb-icon):before,
-.interests ul li:before,
-[class*="interests"] ul li:before {
+/* Broad targeting to catch Hugo Blox interests bullets */
+/* Remove default list styling first */
+ul {
+  list-style: none;
+}
+
+/* Add pen icon to ALL list items as default, then override for specific sections */
+ul li::before {
   content: "";
   display: inline-block;
   width: 1.25rem;
@@ -74,17 +76,10 @@ ul li:has(.hb-icon):before,
   vertical-align: top;
 }
 
-/* Alternative: Use research-specific icons instead of graduation cap */
-/* Uncomment and modify the selectors below if you prefer different icons for each interest */
-/*
-.interests ul li:nth-child(1):before {
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23059669" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>');
-}
-*/
-
-/* Remove default list styling for interests */
-.interests ul,
-[class*="interests"] ul {
-  list-style: none;
-  padding-left: 0;
+/* Override for navigation and other areas where we don't want icons */
+nav ul li::before,
+.navbar ul li::before,
+header ul li::before,
+.menu ul li::before {
+  display: none;
 }
