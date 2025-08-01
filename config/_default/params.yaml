@@ -37,8 +37,6 @@ header:
     logo:
       text: "Khoi Huynh"
       icon: 🧠
-  favicon:
-    icon: "🧠"
 
 # Site footer
 footer:

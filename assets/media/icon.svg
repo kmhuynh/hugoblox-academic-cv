@@ -1,4 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <circle cx="16" cy="16" r="15" fill="#e91e63"/>
-  <text x="16" y="22" font-size="18" text-anchor="middle" fill="white">🧠</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Brain-like shape -->
+  <defs>
+    <style>
+      .brain-fill { fill: #ff6b9d; }
+      .brain-stroke { stroke: #d63384; stroke-width: 8; fill: none; }
+    </style>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="256" cy="256" r="240" fill="#f8f9fa" stroke="#dee2e6" stroke-width="16"/>
+  
+  <!-- Left brain hemisphere -->
+  <ellipse cx="200" cy="220" rx="80" ry="120" class="brain-fill"/>
+  <ellipse cx="180" cy="180" rx="40" ry="60" class="brain-fill"/>
+  <ellipse cx="180" cy="260" rx="35" ry="50" class="brain-fill"/>
+  
+  <!-- Right brain hemisphere -->
+  <ellipse cx="312" cy="220" rx="80" ry="120" class="brain-fill"/>
+  <ellipse cx="332" cy="180" rx="40" ry="60" class="brain-fill"/>
+  <ellipse cx="332" cy="260" rx="35" ry="50" class="brain-fill"/>
+  
+  <!-- Brain folds/sulci -->
+  <path d="M200 160 Q230 180 250 160 Q270 180 300 160" class="brain-stroke"/>
+  <path d="M180 200 Q210 220 240 200 Q270 220 300 200" class="brain-stroke"/>
+  <path d="M190 240 Q220 260 250 240 Q280 260 310 240" class="brain-stroke"/>
+  <path d="M200 280 Q230 300 260 280 Q290 300 320 280" class="brain-stroke"/>
 </svg>
