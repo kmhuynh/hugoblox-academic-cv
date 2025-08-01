@@ -47,9 +47,12 @@ profiles:
     url: https://orcid.org/0000-0001-9538-2408
 
 interests:
-  - Functional and Structural Neurodevelopment
-  - MR Physics and MR signal reconstruction/representation
-  - dMRI, tractography, microstructure modeling
+  - name: Functional and Structural Neurodevelopment
+    icon: fas fa-brain
+  - name: MR Physics and MR signal reconstruction/representation  
+    icon: fas fa-atom
+  - name: dMRI, tractography, microstructure modeling
+    icon: fas fa-microscope
 
 education:
   - area: PhD Biomedical Engineering

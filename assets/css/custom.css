@@ -54,3 +54,34 @@ nav, header, .navbar {
 .name-break-allowed {
   white-space: pre-wrap;
 }
+
+/* CUSTOM INTERESTS SECTION ICONS */
+/* Replace default bullet points with research-related icons */
+.interests-section ul li:before,
+div[data-section="interests"] ul li:before,
+.resume-interests ul li:before {
+  content: "🔬";
+  margin-right: 0.5em;
+  font-size: 1.2em;
+}
+
+/* Alternative: use different icons for different interests */
+.interests-section ul li:nth-child(1):before {
+  content: "🧬"; /* DNA for neurodevelopment */
+}
+
+.interests-section ul li:nth-child(2):before {
+  content: "⚛️"; /* Atom for MR physics */
+}
+
+.interests-section ul li:nth-child(3):before {
+  content: "🔬"; /* Microscope for modeling */
+}
+
+/* Remove default list styling for interests */
+.interests-section ul,
+div[data-section="interests"] ul,
+.resume-interests ul {
+  list-style: none;
+  padding-left: 0;
+}
