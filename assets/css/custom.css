@@ -56,26 +56,28 @@ nav, header, .navbar {
 }
 
 /* CUSTOM INTERESTS SECTION ICONS */
-/* Replace default bullet points with research-related icons */
+/* Replace default bullet points with Font Awesome research icons */
 .interests-section ul li:before,
 div[data-section="interests"] ul li:before,
 .resume-interests ul li:before {
-  content: "🔬";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  content: "\f52e"; /* fa-microscope */
   margin-right: 0.5em;
-  font-size: 1.2em;
+  color: #059669; /* Match theme color */
 }
 
-/* Alternative: use different icons for different interests */
+/* Use different Font Awesome icons for different interests */
 .interests-section ul li:nth-child(1):before {
-  content: "🧬"; /* DNA for neurodevelopment */
+  content: "\f5dc"; /* fa-brain for neurodevelopment */
 }
 
 .interests-section ul li:nth-child(2):before {
-  content: "⚛️"; /* Atom for MR physics */
+  content: "\f5d2"; /* fa-atom for MR physics */
 }
 
 .interests-section ul li:nth-child(3):before {
-  content: "🔬"; /* Microscope for modeling */
+  content: "\f52e"; /* fa-microscope for modeling */
 }
 
 /* Remove default list styling for interests */
