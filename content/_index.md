@@ -46,24 +46,74 @@ sections:
        I believe the solutions we're looking for are often already out there — scattered among us. You might hold the key to a problem I'm working on, and I might have insight into yours. Let's connect and find out together. 😃
     design:
       columns: '1'  # Number of columns (1 or 2)
+  # COLLABORATE WITH ME SECTION
+  - block: cta-card
+    content:
+      title: "🤝 Let's Collaborate"
+      text: |-
+        **Looking for research partnerships?** I'm actively seeking collaborations in:
+        
+        • **Diffusion MRI methodology** - Novel processing and analysis techniques
+        • **Pediatric neuroimaging** - Brain development and normative modeling  
+        • **Clinical translation** - Bringing advanced methods to healthcare
+        • **Open science initiatives** - Making tools accessible to everyone
+        
+        **Have an interesting problem?** Let's explore how we can tackle it together.
+      button:
+        text: "Start a Conversation"
+        url: "mailto:kmhuynh@med.unc.edu?subject=Research Collaboration Inquiry"
+    design:
+      card:
+        css_class: "bg-primary-100 dark:bg-primary-900"
+  # RESEARCH IMPACT METRICS SECTION
+  - block: markdown
+    content:
+      title: '📊 Research Impact'
+      text: |-
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+          <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+            <div class="text-2xl font-bold text-primary-600 dark:text-primary-400">185+</div>
+            <div class="text-sm text-gray-600 dark:text-gray-400">Citations</div>
+            <div class="text-xs text-gray-500">Google Scholar</div>
+          </div>
+          <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+            <div class="text-2xl font-bold text-primary-600 dark:text-primary-400">8</div>
+            <div class="text-sm text-gray-600 dark:text-gray-400">h-index</div>
+            <div class="text-xs text-gray-500">Research Impact</div>
+          </div>
+          <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+            <div class="text-2xl font-bold text-primary-600 dark:text-primary-400">1.2K+</div>
+            <div class="text-sm text-gray-600 dark:text-gray-400">Code Downloads</div>
+            <div class="text-xs text-gray-500">OSF & GitHub</div>
+          </div>
+          <div class="bg-gray-50 dark:bg-gray-800 p-4 rounded-lg">
+            <div class="text-2xl font-bold text-primary-600 dark:text-primary-400">15+</div>
+            <div class="text-sm text-gray-600 dark:text-gray-400">Publications</div>
+            <div class="text-xs text-gray-500">Peer-reviewed</div>
+          </div>
+        </div>
+    design:
+      columns: '1'
   - block: resume-skills
     content:
       title: "🎒 My off hours"
       username: admin
     design:
       show_skill_percentage: false
-  # FEATURED PUBLICATIONS SECTION: Shows papers marked as featured=true
+  # RESEARCH HIGHLIGHTS CAROUSEL: Featured research with visual appeal
   - block: collection
-    id: papers  # This creates anchor link /#papers
+    id: highlights  # This creates anchor link /#highlights
     content:
-      title: Featured Publications  # Change section title here
+      title: 🔬 Research Highlights  # Change section title here
+      subtitle: Breakthrough research in diffusion MRI and brain imaging
       filters:
         folders:
           - publication  # Looks in content/publication/ folder
         featured_only: true  # Only shows papers with featured: true
     design:
-      view: article-grid  # Other options: citation, card, masonry
-      columns: 2  # Number of columns (1-4)
+      view: showcase  # Carousel-style view
+      columns: 1
+      flip_alt_rows: false
   - block: collection
     content:
       title: Recent Publications

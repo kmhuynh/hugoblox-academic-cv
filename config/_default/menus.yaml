@@ -24,6 +24,10 @@ main:
   - name: CV
     url: experience/
     weight: 20
+  # TOOLS: Links to tools page (content/tools/index.md)
+  - name: Tools
+    url: tools/
+    weight: 25
   # POSTS: Links to posts page (content/posts.md)  
   - name: Posts
     url: /posts/
