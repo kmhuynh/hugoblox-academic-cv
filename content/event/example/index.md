@@ -1,19 +1,19 @@
 ---
-title: Example Talk
+title: Example Conference Presentation
 
-event: Hugo Blox Builder Conference
+event: International Conference on Brain Imaging
 event_url: https://example.org
 
-location: Hugo Blox Builder HQ
+location: University Conference Center
 address:
-  street: 450 Serra Mall
-  city: Stanford
+  street: 123 Academic Way
+  city: Research City
   region: CA
-  postcode: '94305'
+  postcode: '12345'
   country: United States
 
-summary: An example talk using Hugo Blox Builder's Markdown slides feature.
-abstract: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellusac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam.'
+summary: An example conference presentation on neuroimaging research methods.
+abstract: 'This presentation covers advanced techniques in diffusion MRI analysis and their applications in understanding brain connectivity. We discuss novel denoising methods and their impact on high-resolution imaging quality, demonstrating significant improvements in signal-to-noise ratio and downstream analysis reliability.'
 
 # Talk start and end times.
 #   End time can optionally be hidden by prefixing the line with `#`.
@@ -66,10 +66,14 @@ projects:
 Click on the **Slides** button above to view the built-in slides feature.
 {{% /callout %}}
 
-Slides can be added in a few ways:
+Slides can be added in several ways:
 
-- **Create** slides using Hugo Blox Builder's [_Slides_](https://docs.hugoblox.com/reference/content-types/) feature and link using `slides` parameter in the front matter of the talk file
-- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
-- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://docs.hugoblox.com/reference/markdown/).
+- **Create** slides using Markdown and link using `slides` parameter in the front matter
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using shortcodes
 
-Further event details, including [page elements](https://docs.hugoblox.com/reference/markdown/) such as image galleries, can be added to the body of this page.
+You can include additional event details such as:
+- Key findings and takeaways
+- Related publications
+- Follow-up discussions and collaborations
+- Image galleries from the event

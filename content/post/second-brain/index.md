@@ -13,15 +13,15 @@ image:
 
 Create a personal knowledge base and share your knowledge with your peers.
 
-Hugo Blox web framework empowers you with one of the most flexible note-taking capabilities out there.
+Modern web frameworks enable flexible note-taking and knowledge management capabilities.
 
 Create a powerful knowledge base that works on top of a local folder of plain text Markdown files.
 
-Use it as your second brain, either publicly sharing your knowledge with your peers via your website, or via a private GitHub repository and password-protected site just for yourself.
+Use it as your second brain, either publicly sharing your knowledge with your peers via your website, or keeping it private for personal reference.
 
 ## Mindmaps
 
-Hugo Blox supports a Markdown extension for mindmaps.
+You can create mindmaps using a Markdown extension.
 
 With this open format, can even edit your mindmaps in other popular tools such as Obsidian.
 

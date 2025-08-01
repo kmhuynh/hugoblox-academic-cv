@@ -15,7 +15,7 @@ Easily manage your projects - create ideation mind maps, Gantt charts, todo list
 
 ## Ideation
 
-Hugo Blox supports a Markdown extension for mindmaps.
+You can create mindmaps using a Markdown extension.
 
 Simply insert a Markdown code block labelled as `markmap` and optionally set the height of the mindmap as shown in the example below.
 
