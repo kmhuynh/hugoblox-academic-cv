@@ -10,15 +10,17 @@ design:
 
 # Page sections
 sections:
-  - block: markdown
+  - block: resume-biography
     content:
-      title: ''
-      text: |
-        <div style="text-align: center; margin: 2rem 0;">
-          <a href="uploads/resume.pdf" target="_blank" style="display: inline-block; background: #3b82f6; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 500;">
-            📄 Download CV
-          </a>
-        </div>
+      username: admin
+      text: ""
+      button:
+        text: Download CV
+        url: uploads/resume.pdf
+    design:
+      show_interests: false
+      show_education: false
+      show_experience: false
   - block: resume-experience
     content:
       username: admin

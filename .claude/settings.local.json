@@ -4,7 +4,8 @@
     "allow": [
       "Bash(rm:*)",
       "WebFetch(domain:www.cell.com)",
-      "Bash(mkdir:*)"
+      "Bash(mkdir:*)",
+      "Bash(hugo:*)"
     ],
     "deny": []
   }
