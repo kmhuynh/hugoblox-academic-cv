@@ -14,11 +14,11 @@ sections:
     content:
       title: ''
       text: |
-        {{< button href="uploads/resume.pdf" target="_blank" >}}
-        📄 Download CV
-        {{< /button >}}
-    design:
-      css_class: 'text-center'
+        <div style="text-align: center; margin: 2rem 0;">
+          <a href="uploads/resume.pdf" target="_blank" style="display: inline-block; background: #3b82f6; color: white; padding: 12px 24px; border-radius: 8px; text-decoration: none; font-weight: 500;">
+            📄 Download CV
+          </a>
+        </div>
   - block: resume-experience
     content:
       username: admin
