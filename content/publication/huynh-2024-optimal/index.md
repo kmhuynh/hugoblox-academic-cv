@@ -58,6 +58,10 @@ image:
   caption: 'Optimal shrinkage denoising dramatically improves high-resolution diffusion MRI quality'
   focal_point: "Smart"
   preview_only: false
+  # High quality settings for this publication
+  quality: 100
+  width: 1778
+  height: 1772
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.

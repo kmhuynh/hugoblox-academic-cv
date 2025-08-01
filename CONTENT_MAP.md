@@ -49,6 +49,7 @@
 | Abstract text | `content/publication/[paper-folder]/index.md` | Line ~23 (abstract field) |
 | PDF/Code/Data links | `content/publication/[paper-folder]/index.md` | Lines 45-51 (url_* fields) |
 | Paper image | `content/publication/[paper-folder]/featured.jpg` | Replace image file |
+| Image quality | `content/publication/[paper-folder]/index.md` | Add quality: 100 in image section |
 | Featured on homepage | `content/publication/[paper-folder]/index.md` | Line 38 (`featured: true`) |
 
 ---
