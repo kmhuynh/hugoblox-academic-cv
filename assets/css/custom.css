@@ -127,33 +127,89 @@ div.abstract::before {
   color: #f9fafb;
 }
 
-/* COMPACT AWARDS STYLING */
-/* Target the specific Hugo Blox awards elements */
-.resume-awards .card,
-.resume-awards .experience-item,
-.resume-awards li {
-  margin-bottom: 0.75rem !important;
-  padding: 0.5rem !important;
+/* AWARDS TIMELINE STYLING - MATCH EXPERIENCE/EDUCATION */
+/* Transform card-based awards into clean timeline format */
+
+.resume-awards .card {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+  margin-bottom: 1.5rem !important;
+  position: relative;
+  padding-left: 2rem !important;
+}
+
+/* Add timeline line */
+.resume-awards .card:before {
+  content: '';
+  position: absolute;
+  left: 0.5rem;
+  top: 0;
+  bottom: -1.5rem;
+  width: 2px;
+  background: #e5e7eb;
+  z-index: 1;
+}
+
+/* Add timeline dot */
+.resume-awards .card:after {
+  content: '';
+  position: absolute;
+  left: 0.25rem;
+  top: 0.5rem;
+  width: 0.5rem;
+  height: 0.5rem;
+  background: #059669;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+/* Hide last timeline line */
+.resume-awards .card:last-child:before {
+  display: none;
 }
 
 .resume-awards .card-body {
-  padding: 0.5rem !important;
+  padding: 0 !important;
 }
 
+/* Style titles like experience/education */
 .resume-awards h3,
 .resume-awards .card-title {
   font-size: 1rem !important;
-  margin-bottom: 0.5rem !important;
-  line-height: 1.3 !important;
+  font-weight: 600 !important;
+  margin-bottom: 0.25rem !important;
+  line-height: 1.4 !important;
+  color: #111827;
 }
 
+.dark .resume-awards h3,
+.dark .resume-awards .card-title {
+  color: #f9fafb;
+}
+
+/* Style organization/date like experience */
+.resume-awards .text-muted {
+  font-size: 0.875rem !important;
+  margin-bottom: 0.5rem !important;
+  color: #6b7280 !important;
+}
+
+.dark .resume-awards .text-muted {
+  color: #9ca3af !important;
+}
+
+/* Style description like experience */
 .resume-awards .card-text,
 .resume-awards p {
-  font-size: 0.85rem !important;
-  line-height: 1.4 !important;
+  font-size: 0.875rem !important;
+  line-height: 1.5 !important;
   margin-bottom: 0.5rem !important;
+  color: #374151;
 }
 
-.resume-awards .text-muted {
-  font-size: 0.8rem !important;
+.dark .resume-awards .card-text,
+.dark .resume-awards p {
+  color: #d1d5db;
 }
