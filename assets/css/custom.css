@@ -128,32 +128,41 @@ div.abstract::before {
 }
 
 /* AWARDS TIMELINE STYLING - MATCH EXPERIENCE/EDUCATION */
-/* Transform card-based awards into clean timeline format */
+/* Try broader selectors to target Hugo Blox awards */
 
-.resume-awards .card {
+/* Target any element with 'award' in class name or under awards section */
+[class*="award"],
+.resume-awards > *,
+.resume-awards li,
+.awards li,
+div[data-section="awards"] > *,
+section:has(h2:contains("Awards")) > * {
   border: none !important;
   box-shadow: none !important;
   background: transparent !important;
-  padding: 0 !important;
-  margin-bottom: 1.5rem !important;
+  padding: 0.5rem 0 0.5rem 2rem !important;
+  margin-bottom: 1rem !important;
   position: relative;
-  padding-left: 2rem !important;
 }
 
-/* Add timeline line */
-.resume-awards .card:before {
+/* Timeline line for awards */
+[class*="award"]:before,
+.resume-awards li:before,
+.awards li:before {
   content: '';
   position: absolute;
   left: 0.5rem;
   top: 0;
-  bottom: -1.5rem;
+  bottom: -1rem;
   width: 2px;
   background: #e5e7eb;
   z-index: 1;
 }
 
-/* Add timeline dot */
-.resume-awards .card:after {
+/* Timeline dot for awards */
+[class*="award"]:after,
+.resume-awards li:after,
+.awards li:after {
   content: '';
   position: absolute;
   left: 0.25rem;
@@ -165,51 +174,31 @@ div.abstract::before {
   z-index: 2;
 }
 
-/* Hide last timeline line */
-.resume-awards .card:last-child:before {
-  display: none;
-}
-
-.resume-awards .card-body {
-  padding: 0 !important;
-}
-
-/* Style titles like experience/education */
+/* More aggressive targeting for award titles */
+[class*="award"] h1,
+[class*="award"] h2,
+[class*="award"] h3,
+[class*="award"] h4,
+.resume-awards h1,
+.resume-awards h2,
 .resume-awards h3,
-.resume-awards .card-title {
+.resume-awards h4 {
   font-size: 1rem !important;
   font-weight: 600 !important;
   margin-bottom: 0.25rem !important;
   line-height: 1.4 !important;
-  color: #111827;
+  color: #111827 !important;
 }
 
-.dark .resume-awards h3,
-.dark .resume-awards .card-title {
-  color: #f9fafb;
+/* Force remove card styling */
+.resume-awards * {
+  border: none !important;
+  box-shadow: none !important;
 }
 
-/* Style organization/date like experience */
-.resume-awards .text-muted {
-  font-size: 0.875rem !important;
-  margin-bottom: 0.5rem !important;
-  color: #6b7280 !important;
-}
-
-.dark .resume-awards .text-muted {
-  color: #9ca3af !important;
-}
-
-/* Style description like experience */
-.resume-awards .card-text,
-.resume-awards p {
+/* Target all possible award text elements */
+.resume-awards *,
+[class*="award"] * {
   font-size: 0.875rem !important;
   line-height: 1.5 !important;
-  margin-bottom: 0.5rem !important;
-  color: #374151;
-}
-
-.dark .resume-awards .card-text,
-.dark .resume-awards p {
-  color: #d1d5db;
 }
