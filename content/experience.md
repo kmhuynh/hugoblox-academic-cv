@@ -35,10 +35,16 @@ sections:
   #     username: admin
   #   design:
   #     show_skill_percentage: false
-  - block: resume-awards
+  - block: resume-experience
     content:
       title: Awards
       username: admin
+      # Use awards_work instead of awards for timeline format  
+      text: ""
+      experience_type: "awards_work"
+    design:
+      date_format: 'January 2006'
+      is_education_first: false
   - block: collection
     content:
       title: Publications

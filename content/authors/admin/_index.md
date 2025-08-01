@@ -105,6 +105,67 @@ work:
   #   summary: |
   #     - Diffusion MRI Processing and Analysis
 
+# Awards in work format for resume-experience block
+awards_work:
+  - position: 🏅 ISMRM Summa Cum Laude Awards
+    company_name: ISMRM
+    company_url: https://www.ismrm.org/25/docs/25-Summa.pdf
+    date_start: 2025-05-10
+    date_end: ''
+    summary: |
+      Two Summa Cum Laude Awards for presentations:
+      - [Precision Cortex Tractography for the Developing Brain](https://submissions.mirasmart.com/ISMRM2025/Itinerary/ConferenceMatrixEventDetail.aspx?ses=O-42)
+      - [Pan Contrast Learning of MRI Segmentation for Healthy and Anomaly Cases](https://submissions.mirasmart.com/ISMRM2025/Itinerary/ConferenceMatrixEventDetail.aspx?ses=O-17)
+  - position: 🎓 ISMRM Education Stipend
+    company_name: ISMRM
+    date_start: 2025-05-10
+    date_end: ''
+    summary: |
+      - [Precision Cortex Tractography for the Developing Brain](https://submissions.mirasmart.com/ISMRM2025/Itinerary/ConferenceMatrixEventDetail.aspx?ses=O-42)
+  - position: 🏅 Best Oral Presentation – 2023 UNC Radiology Symposium
+    company_name: UNC Department of Radiology
+    date_start: 2023-10-01
+    date_end: ''
+    summary: |
+      - Microstructural Atlases of the Developing Brain
+  - position: 🎓 ISMRM Education Stipend
+    company_name: ISMRM
+    date_start: 2021-05-10
+    date_end: ''
+    summary: |
+      - [Quantifying Cell Size and Membrane Permeability with Microstructure Fingerprinting](https://www.ismrm.org/21/program-files/TeaserSlides/TeasersPresentations/3404-Teaser.html)
+  - position: ✈️ UNC Graduate Student Transportation Grant
+    company_name: UNC
+    date_start: 2020-06-01
+    date_end: ''
+    summary: |
+      - [Dense Temporal Mapping of Cortical Microstructure in the Early Developing Brain](https://drive.google.com/file/d/1NYW-i2EKqQy4L-N_u6SpNpdv_dRNR1wS/view)
+  - position: ✈️ UNC-BME Travel Award
+    company_name: UNC-NCSU BME
+    date_start: 2020-03-01
+    date_end: ''
+    summary: |
+      - [Quantifying Intra-Soma Diffusion Properties via Spherical Mean Spectrum Imaging](https://archive.ismrm.org/2020/4419.html)
+  - position: 🏅 MICCAI Graduate Student Award
+    company_name: MICCAI Society
+    date_start: 2019-10-01
+    date_end: ''
+    summary: |
+      - [Probing Brain Micro-Architecture by Orientation Distribution Invariant Identification of Diffusion Compartments](https://pubmed.ncbi.nlm.nih.gov/34447975/)
+      - [Characterizing Non-Gaussian Diffusion in Heterogeneously Oriented Tissue Microenvironments](https://pubmed.ncbi.nlm.nih.gov/34447976/)
+  - position: ✈️ UNC-BME Travel Award
+    company_name: UNC-NCSU BME
+    date_start: 2019-03-01
+    date_end: ''
+    summary: |
+      - [Dense Mapping of Microstructural Development in the Human Brain During the First Two Years of Life](https://drive.google.com/file/d/1AvKdXybSBLXowh818jsuOYWXg8a1P4Tb/view)
+  - position: 🎓 ISMRM Education Stipend
+    company_name: ISMRM
+    date_start: 2018-05-01
+    date_end: ''
+    summary: |
+      - [Spatially Varying Signal-Drift Correction in Diffusion MRI](https://archive.ismrm.org/2018/1640.html)
+
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:

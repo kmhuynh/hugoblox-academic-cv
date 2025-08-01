@@ -127,58 +127,6 @@ div.abstract::before {
   color: #f9fafb;
 }
 
-/* COMPACT AWARDS STYLING */
-/* Make awards panels significantly smaller and easier to scan */
-.resume-awards .award-item,
-[class*="award"] .card,
-.awards-section .card,
-.resume-awards .card {
-  padding: 0.25rem !important;
-  margin-bottom: 0.5rem !important;
-  box-shadow: 0 1px 2px rgba(0,0,0,0.08) !important;
-  border: 1px solid #e5e7eb !important;
-}
-
-.resume-awards .award-item .card-body,
-[class*="award"] .card-body,
-.resume-awards .card-body {
-  padding: 0.25rem !important;
-}
-
-.resume-awards .award-item h3,
-[class*="award"] h3,
-.resume-awards h3,
-.resume-awards .card-title {
-  font-size: 0.9rem !important;
-  margin-bottom: 0.125rem !important;
-  font-weight: 600 !important;
-  line-height: 1.2 !important;
-}
-
-.resume-awards .award-item .card-text,
-[class*="award"] .card-text,
-.resume-awards .card-text,
-.resume-awards p {
-  font-size: 0.75rem !important;
-  line-height: 1.2 !important;
-  margin-bottom: 0.125rem !important;
-}
-
-.resume-awards .award-item .text-muted,
-[class*="award"] .text-muted,
-.resume-awards .text-muted {
-  font-size: 0.7rem !important;
-}
-
-.resume-awards .award-item .d-flex,
-[class*="award"] .d-flex,
-.resume-awards .d-flex {
-  margin-bottom: 0.125rem !important;
-}
-
-/* Target Hugo Blox specific award elements */
-.resume-awards ul li,
-.resume-awards .award {
-  margin-bottom: 0.5rem !important;
-  padding: 0.25rem !important;
-}
+/* AWARDS NOW USE TIMELINE FORMAT */
+/* Awards now use the same timeline layout as Experience and Education */
+/* No additional CSS needed - they inherit the clean timeline styling */
