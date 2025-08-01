@@ -1,0 +1,54 @@
+{{/* Add HTML comments to help identify editable content */}}
+
+{{/* Homepage specific comments */}}
+{{ if .IsHome }}
+<!-- 
+HOMEPAGE EDITING GUIDE:
+- Research text: content/_index.md (around line 44)
+- Section order: content/_index.md (sections list)
+- Featured papers: Set featured: true in publication index.md files
+- Skills/hobbies: content/authors/admin/_index.md
+-->
+{{ end }}
+
+{{/* Publication page comments */}}
+{{ if eq .Type "publication" }}
+<!-- 
+PUBLICATION EDITING GUIDE:
+- Title, authors, abstract: content/publication/{{ .File.Dir }}index.md
+- Links (PDF, code, etc): url_pdf, url_code fields in frontmatter
+- Featured status: featured: true/false
+- Publication date: date field
+-->
+{{ end }}
+
+{{/* Author profile comments */}}
+{{ if and (eq .Type "authors") (.IsPage) }}
+<!-- 
+PROFILE EDITING GUIDE:
+- Bio, education, work: content/authors/admin/_index.md
+- Contact links: profiles section in frontmatter
+- Skills: content/authors/admin/_index.md
+- Photo: content/authors/admin/avatar.jpg
+-->
+{{ end }}
+
+{{/* CV/Experience page comments */}}
+{{ if eq .File.BaseFileName "experience" }}
+<!-- 
+CV PAGE EDITING GUIDE:
+- CV download button: content/experience.md (button section)
+- CV file: static/uploads/resume.pdf
+- Education, work, awards: content/authors/admin/_index.md
+-->
+{{ end }}
+
+{{/* Posts page comments */}}
+{{ if eq .Type "post" }}
+<!-- 
+BLOG POST EDITING GUIDE:
+- Content: content/post/{{ .File.Dir }}index.md
+- Title, date, tags: frontmatter section
+- Featured image: content/post/{{ .File.Dir }}featured.jpg
+-->
+{{ end }}

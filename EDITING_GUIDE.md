@@ -229,22 +229,74 @@ Your site will automatically rebuild and deploy!
 
 ---
 
+## 🔍 FINDING CONTENT TO EDIT
+
+### Method 1: Browser Inspection (Recommended)
+1. **Right-click** on any text you want to change
+2. **Select "Inspect Element"** or "Inspect"
+3. **Look for HTML comments** like `<!-- EDIT: filename.md -->`
+4. **Follow the path** to the file mentioned
+
+### Method 2: Text Search in VS Code
+1. **Copy unique text** from the website (5-10 words)
+2. **Press Ctrl+Shift+F** (Windows) or **Cmd+Shift+F** (Mac)
+3. **Search across all files**
+4. **Look for matches in `.md` files** (ignore `.html` in `public/`)
+
+### Method 3: Use CONTENT_MAP.md
+- **Check `CONTENT_MAP.md`** for visual reference
+- **Find "What You See"** → **"Where to Edit"** mapping
+- **Common patterns** and file locations
+
+### Method 4: Pattern Recognition
+- **Homepage content** → `content/_index.md`
+- **Personal info** → `content/authors/admin/_index.md`
+- **Individual papers** → `content/publication/[paper-name]/index.md`
+- **Blog posts** → `content/post/[post-name]/index.md`
+- **Navigation menu** → `config/_default/menus.yaml`
+- **Site settings** → `config/_default/params.yaml`
+
 ## 🆘 Troubleshooting
 
 **Site not updating?**
 - Check for syntax errors in YAML frontmatter
 - Ensure proper indentation (spaces, not tabs)
 - Clear browser cache
+- Check Hugo server logs for errors
+
+**Can't find the content?**
+- Use browser inspection method above
+- Search for exact text in VS Code
+- Check CONTENT_MAP.md file
+- Look for HTML comments in page source
 
 **Images not showing?**
 - Check file paths are correct
 - Ensure images are in the right folder
 - Try different image formats (JPG, PNG)
+- Refresh browser cache
 
 **Navigation broken?**
 - Check `menus.yaml` syntax
 - Ensure weight values are numbers
 - Verify URL paths are correct
+- Check for proper YAML indentation
+
+**Text showing weird formatting?**
+- Check for Markdown vs YAML comment conflicts
+- Ensure no `# comments` inside YAML text blocks
+- Use proper Markdown syntax
+
+---
+
+## 📋 QUICK REFERENCE FILES
+
+**Main editing files (bookmark these):**
+- 📄 **CONTENT_MAP.md** - Visual "what you see" → "where to edit"
+- 📝 **EDITING_GUIDE.md** - This comprehensive guide
+- 🏠 **content/_index.md** - Homepage content
+- 👤 **content/authors/admin/_index.md** - Your profile info
+- 🧭 **config/_default/menus.yaml** - Navigation menu
 
 ---
 
