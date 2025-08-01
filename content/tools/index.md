@@ -14,6 +14,10 @@ sections:
       title: '🛠️ Research Tools & Resources'
       subtitle: 'Open-source contributions to advance neuroimaging research'
       text: |-
+        **💬 Need Custom Tools?** Looking for specialized neuroimaging solutions? [Contact me](mailto:kmhuynh@med.unc.edu) to discuss collaborative development.
+        
+        ---
+        
         I believe in open science and making research tools accessible to everyone. Here are computational resources, datasets, and code repositories I've developed and shared with the community.
     design:
       columns: '1'
