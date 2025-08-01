@@ -13,7 +13,8 @@
       "Bash(cp:*)",
       "Bash(find:*)",
       "Bash(mv:*)",
-      "Bash(rsvg-convert:*)"
+      "Bash(rsvg-convert:*)",
+      "Bash(python3:*)"
     ],
     "deny": []
   }
