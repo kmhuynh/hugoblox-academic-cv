@@ -4,6 +4,16 @@
 p {
   text-align: justify;
   text-justify: inter-word;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  word-spacing: -0.1em;
+  line-height: 1.6;
+}
+
+/* Don't justify very short paragraphs */
+p {
+  text-align-last: left;
 }
 
 /* Ensure lists and headings remain left-aligned */
