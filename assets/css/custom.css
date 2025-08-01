@@ -88,3 +88,16 @@ ul li:has(.hb-icon):before,
   list-style: none;
   padding-left: 0;
 }
+
+/* PUBLICATION PAGE ABSTRACT JUSTIFICATION */
+/* Force abstract text to be justified on publication pages */
+.abstract,
+div.abstract,
+.publication-abstract,
+[class*="abstract"] {
+  text-align: justify !important;
+  text-justify: inter-word;
+  hyphens: auto;
+  word-spacing: -0.1em;
+  line-height: 1.6;
+}

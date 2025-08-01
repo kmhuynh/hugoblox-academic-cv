@@ -78,39 +78,70 @@ projects: []
 slides: ""
 ---
 
-## The Big Picture: Breaking Through the Noise Barrier
+{{% callout note %}}
+**🚀 Key Breakthrough**: We achieved an **11x reduction** in noise floor - enabling unprecedented brain imaging detail without expensive hardware upgrades.
+{{% /callout %}}
+
+## 🧠 The Big Picture: Breaking Through the Noise Barrier
 
 Imagine trying to capture the intricate highway system of the brain with unprecedented detail, but noise keeps blurring the fine structures you need to see. This is the fundamental challenge in high-resolution diffusion MRI - the very noise that limits our ability to peer into the brain's white matter architecture at the microscopic level.
 
 Our research tackles this head-on with a breakthrough approach: **optimal shrinkage denoising**. Instead of accepting noise as an inevitable limitation, we developed a method that reduces the noise floor by **11 times** - a dramatic improvement that opens new possibilities for brain imaging.
 
-## The Innovation
+---
+
+## 💡 The Innovation
 
 The key insight lies in leveraging the redundant information inherent in multi-channel MRI data. Modern MRI scanners use multiple receiver coils, creating natural redundancy that we can exploit. By applying optimal shrinkage to singular values in the complex-valued k-space data, we can distinguish true signal from noise with remarkable precision.
 
-Think of it like having multiple microphones recording the same concert - while each individual recording might be noisy, combining them intelligently can reveal the true music underneath.
+> 🎵 **Think of it like this**: Having multiple microphones recording the same concert - while each individual recording might be noisy, combining them intelligently can reveal the true music underneath.
 
-## Why This Matters
-
-This breakthrough has profound implications:
-
-- **Democratizes high-resolution imaging**: Achieves superior image quality without expensive hardware upgrades
-- **Accelerates research**: Reduces the need for time-consuming repeated scans
-- **Enables new discoveries**: Reveals microstructural details previously hidden by noise
-- **Clinical translation**: Brings advanced diffusion MRI techniques closer to routine clinical use
-
-The method outperforms existing denoising approaches and represents a fundamental shift in how we think about noise in medical imaging - from accepting it as a limitation to actively breaking through it.
-
-{{% callout note %}}
-**Open Science**: All code and data are freely available to accelerate reproducible research in the neuroimaging community.
+{{% callout warning %}}
+**Traditional Approach**: Accept noise as an inevitable limitation  
+**Our Approach**: Actively break through the noise barrier using optimal shrinkage
 {{% /callout %}}
 
-## Impact and Applications
+---
+
+## 🎯 Why This Matters
+
+This breakthrough has profound implications for the entire neuroimaging field:
+
+| Impact Area | Benefit |
+|-------------|---------|
+| 🏥 **Clinical Translation** | Brings advanced diffusion MRI closer to routine clinical use |
+| 🔬 **Research Acceleration** | Reduces need for time-consuming repeated scans |
+| 💰 **Cost Effectiveness** | Achieves superior quality without expensive hardware upgrades |
+| 🔍 **New Discoveries** | Reveals microstructural details previously hidden by noise |
+
+---
+
+## 🔬 Technical Abstract
+
+<details>
+<summary><strong>Click to expand technical details</strong></summary>
+
+The spatial resolution attainable in diffusion magnetic resonance (MR) imaging is inherently limited by noise. The weaker signal associated with a smaller voxel size, especially at a high level of diffusion sensitization, is often buried under the noise floor owing to the non-Gaussian nature of the MR magnitude signal. Here, we show how the noise floor can be suppressed remarkably via optimal shrinkage of singular values associated with noise in complex-valued k-space data from multiple receiver channels. We explore and compare different low-rank signal matrix recovery strategies to utilize the inherently redundant information from multiple channels. In combination with background phase removal, the optimal strategy reduces the noise floor by 11 times. Our framework enables imaging with substantially improved resolution for precise characterization of tissue microstructure and white matter pathways without relying on expensive hardware upgrades and time-consuming acquisition repetitions, outperforming other related denoising methods.
+
+</details>
+
+---
+
+## 📊 Impact and Applications
 
 Our framework enables precise characterization of:
-- **White matter pathways** with unprecedented detail
-- **Tissue microstructure** previously obscured by noise  
-- **Developmental changes** in brain connectivity
-- **Pathological alterations** in neurological conditions
 
-This work represents a significant step forward in making high-resolution diffusion MRI accessible to researchers worldwide, democratizing advanced brain imaging capabilities.
+- 🛤️ **White matter pathways** with unprecedented detail
+- 🔬 **Tissue microstructure** previously obscured by noise  
+- 📈 **Developmental changes** in brain connectivity
+- 🏥 **Pathological alterations** in neurological conditions
+
+{{% callout info %}}
+**🌍 Open Science Commitment**: All code and data are freely available to accelerate reproducible research in the neuroimaging community.
+{{% /callout %}}
+
+---
+
+## 🏆 The Bottom Line
+
+This work represents a **paradigm shift** in medical imaging - from accepting noise as a limitation to actively breaking through it. We're democratizing high-resolution brain imaging capabilities and making advanced diffusion MRI accessible to researchers worldwide.
