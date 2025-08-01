@@ -43,7 +43,7 @@ sections:
       text: |-
        I'm a postdoc in <span class="no-break">Dr. Pew-Thian Yap's</span> lab at UNC-Chapel Hill, where I build tools to better understand how the brain changes over time — through development, aging, and disease. I'm especially focused on creating normative brain charts, like the height and weight charts used in pediatric care, to help spot when something's not quite right. At the heart of it, I'm driven by a simple goal - to turn brain scans into practical tools that make healthcare better — so no child is left behind just because we didn't see the signs soon enough.
 
-       I believe the solutions we're looking for are often already out there — scattered among us. You might hold the key to a problem I'm working on, and I might have insight into yours. Let's connect and find out together. 😃 [📧](mailto:kmhuynh@med.unc.edu)
+       I believe the solutions we're looking for are often already out there — scattered among us. You might hold the key to a problem I'm working on, and I might have insight into yours. Let's [connect](mailto:kmhuynh@med.unc.edu) and find out together. 😃
     design:
       columns: '1'  # Number of columns (1 or 2)
   # RESEARCH IMPACT METRICS SECTION (HIDDEN - uncomment to enable)
