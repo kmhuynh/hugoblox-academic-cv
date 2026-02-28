@@ -14,7 +14,10 @@
       "Bash(find:*)",
       "Bash(mv:*)",
       "Bash(rsvg-convert:*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "Bash(curl:*)",
+      "Bash(pkill:*)",
+      "Bash(git revert:*)"
     ],
     "deny": []
   }
