@@ -1,130 +1,42 @@
-/* CUSTOM CSS CONFIGURATION
- * This file overrides Hugo Blox default styles
- * Location: assets/css/custom.css
- * Loaded via: config/_default/params.yaml -> plugins_css: ["custom"]
- */
-
-/* TEXT JUSTIFICATION: Make paragraphs use justified text alignment */
-p, .abstract, .summary, .article-summary, .content p, .post-content p, .page-content p, div.abstract, div.summary {
-  text-align: justify !important;
-  text-justify: inter-word;
-  hyphens: auto;
-  -webkit-hyphens: auto;
-  -ms-hyphens: auto;
-  word-spacing: -0.1em;
-  line-height: 1.6;
+/* Scoped visual system for hub-and-spoke layout */
+:root {
+  --hub-border: #d1d5db;
+  --hub-text: #1f2937;
+  --hub-muted: #4b5563;
+  --hub-surface: #ffffff;
+  --hub-accent: #059669;
 }
 
-/* Don't justify very short paragraphs */
-p, .abstract, .summary, .article-summary, .content p, .post-content p, .page-content p {
-  text-align-last: left;
-}
-
-/* Ensure lists and headings remain left-aligned */
-h1, h2, h3, h4, h5, h6 {
-  text-align: left;
-}
-
-ul, ol {
-  text-align: left;
-}
-
-/* Center align specific sections if needed */
-.text-center {
-  text-align: center;
-}
-
-/* Ensure buttons and form elements are not justified */
-button, .btn, input, select, textarea {
-  text-align: center;
-}
-
-/* Fix any justified text in navigation or headers */
-nav, header, .navbar {
-  text-align: left;
-}
-
-/* PREVENT NAME LINE BREAKS: Keep names together on one line */
-/* Usage: <span class="no-break">Dr. Pew-Thian Yap</span> */
-.no-break, .name, .person-name {
+.no-break {
   white-space: nowrap;
 }
 
-/* Allow breaking only at specific points for long names */
-.name-break-allowed {
-  white-space: pre-wrap;
+.hub-quick-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
 }
 
-/* CUSTOM INTERESTS SECTION ICONS */
-/* Target Hugo Blox interests rendering in resume-biography blocks */
-/* Use pen icon for research interests */
-.prose ul li:has(.hb-icon):before,
-ul li:has(.hb-icon):before,
-.interests ul li:before,
-[class*="interests"] ul li:before {
-  content: "";
-  display: inline-block;
-  width: 1.25rem;
-  height: 1.25rem;
-  margin-right: 0.5rem;
-  margin-top: 0.25rem;
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23059669" viewBox="0 0 24 24"><path d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z"/></svg>');
-  background-size: contain;
-  background-repeat: no-repeat;
-  vertical-align: top;
-}
-
-/* Alternative: Use research-specific icons instead of graduation cap */
-/* Uncomment and modify the selectors below if you prefer different icons for each interest */
-/*
-.interests ul li:nth-child(1):before {
-  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="%23059669" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg>');
-}
-*/
-
-/* Remove default list styling for interests */
-.interests ul,
-[class*="interests"] ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-/* PUBLICATION PAGE ABSTRACT JUSTIFICATION */
-/* Force abstract text to be justified on publication pages */
-.abstract,
-div.abstract,
-.publication-abstract,
-[class*="abstract"] {
-  text-align: justify !important;
-  text-justify: inter-word;
-  hyphens: auto;
-  word-spacing: -0.1em;
-  line-height: 1.6;
-}
-
-/* CHANGE ABSTRACT SECTION TITLE */
-/* Hide the default "Abstract" heading and replace with custom title */
-.publication-header h2:contains("Abstract"),
-h2:contains("Abstract"),
-.abstract-heading {
-  display: none;
-}
-
-/* Add custom section title before abstract content */
-.abstract::before,
-div.abstract::before {
-  content: "The Bigger Picture";
+.hub-card {
   display: block;
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 1rem;
-  color: #374151;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--hub-border);
+  border-radius: 0.75rem;
+  color: var(--hub-text);
+  background: var(--hub-surface);
+  text-decoration: none;
+  font-weight: 600;
+  transition: border-color 0.15s ease, transform 0.15s ease;
 }
 
-/* Dark mode support for custom title */
-.dark .abstract::before,
-.dark div.abstract::before {
-  color: #f9fafb;
+.hub-card:hover,
+.hub-card:focus-visible {
+  border-color: var(--hub-accent);
+  transform: translateY(-1px);
+  outline: none;
 }
 
-/* AWARDS: Using original Hugo Blox styling - no custom modifications */
+.contact-options {
+  color: var(--hub-muted);
+}
