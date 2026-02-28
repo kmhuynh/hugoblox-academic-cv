@@ -10,6 +10,29 @@
 
 ---
 
+## Execution Status (2026-02-28)
+
+Status:
+- Completed on branch `codex/homepage-restore` and pushed to origin
+
+Key implementation commits:
+1. `e5f99d5` test: add restore expectations for homepage and nav baseline
+2. `a32f54c` test: fix nav expectation matching for verify script
+3. `4074887` restore: revert homepage structure to cd08864 baseline
+4. `40cd5b5` restore: revert navigation labels and links to cd08864
+5. `8c79983` restore: revert custom css to cd08864 baseline
+6. `cbe9095` style: apply typography-scale polish on restored baseline
+7. `bc98ccc` test: add forbidden-marker guard for homepage restore
+8. `8b85f3e` docs: finalize content map for restored homepage baseline
+
+Verification evidence:
+1. `bash scripts/verify_site_layout.sh` -> PASS
+2. `bash scripts/verify_restore_absence.sh` -> PASS
+3. `git diff --stat cd08864 -- content/_index.md config/_default/menus.yaml assets/css/custom.css` -> only `assets/css/custom.css` differs (typography polish)
+
+PR URL:
+- https://github.com/kmhuynh/hugoblox-academic-cv/pull/new/codex/homepage-restore
+
 ## Execution Notes
 
 - Apply `@test-driven-development` behavior at task level: add failing expectation -> implement minimal change -> pass.

@@ -1,8 +1,21 @@
 # Homepage Restore Design (cd08864 Baseline)
 
 Date: 2026-02-28  
-Status: Approved (design)  
+Status: Implemented on `codex/homepage-restore` (pending merge to `main`)  
 Scope: Restore homepage/nav/theme feel to pre-redesign baseline with one constrained enhancement (typography scale only)
+
+## Implementation Snapshot (2026-02-28)
+
+Execution branch:
+- `codex/homepage-restore`
+
+Primary verification results:
+1. `bash scripts/verify_site_layout.sh` -> PASS
+2. `bash scripts/verify_restore_absence.sh` -> PASS
+3. Baseline parity diff check vs `cd08864` shows only typography deltas in `assets/css/custom.css`
+
+Pull request URL:
+- https://github.com/kmhuynh/hugoblox-academic-cv/pull/new/codex/homepage-restore
 
 ## 1) Context
 
