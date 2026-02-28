@@ -86,6 +86,8 @@ text: |-
 
 **Files:** `content/post/[post-name]/index.md`
 
+📘 **Detailed walkthrough:** See `POST_EDITING_GUIDE.md` for a full post workflow (front matter fields, images, shortcodes, preview, publishing).
+
 ### What you can edit:
 - **Title**: Post title
 - **Date**: Publication date

@@ -129,39 +129,39 @@ skills:
    #       description: 'aaa'
    #       percent: 80
    #       icon: custom/unc_crop_2 # must be in asset/media/icons/custom to work
-   - name: Outside Research
+   - name: Hobbies
      color: '#eeac02'
      color_border: '#f0bf23'
      items:
-       - name: "Hiking"
+       - name: "🥾 Hiking"
          description: ''
          percent: 0
-       - name: "Camping"
+       - name: "🏕️ Camping"
          description: ''
          percent: 0
          #icon: person-simple-walk
-       - name: "Kayaking"
+       - name: "🛶 Kayaking"
          description: ''
          percent: 0
          #icon: custom/kayak
-       - name: Visiting National Parks
+       - name: 🏞️ Visting National Parks
          description: 'I might be biased, but the Great Smoky Mountains are the best (closely followed by Sequoia-Kings).'
          percent: 0
          #icon: #custom/nps # must be in asset/media/icons/custom to work
-   - name: Upcoming National Parks
+   - name: Next NPs
      color: '#eeac02'
      color_border: '#f0bf23'
      items:
-       - name: "Desert Parks"
+       - name: "🌵🦎🏜️"
          description: ''
          percent: 0
-       - name: "Rainforest Parks"
+       - name: "🦟🌳🌧️"
          description: ''
          percent: 0
-       - name: "Mountain and Volcanic Parks"
+       - name: "🦬🌋💨"
          description: ''
          percent: 0
-       - name: "Appalachian Parks"
+       - name: "🐻🍂🪕"
          description: 'I might be biased, but the Great Smoky Mountains are REALLY the best.'
          percent: 0
 
@@ -247,4 +247,4 @@ awards:
 
 ## About Me
 
-I am a postdoc in radiology at UNC Chapel Hill. Since 2017, I've been working with <span class="no-break">Dr. Pew-Thian Yap</span> on MR reconstruction, signal representation, noise removal, tractography, and microstructure imaging using diffusion MRI data with applications in neurodevelopment. Collaborate with me if your team is exploring neuroimaging methods, translational workflows, or data-driven developmental neuroscience.
+I am a postdoc in radiology at UNC Chapel Hill. Since 2017, I've been working with <span class="no-break">Dr. Pew-Thian Yap</span> on MR reconstruction, signal representation, noise removal, tractography, and microstructure imaging using diffusion MRI data with applications in neurodevelopment.
