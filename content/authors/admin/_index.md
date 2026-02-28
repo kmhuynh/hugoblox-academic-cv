@@ -129,39 +129,39 @@ skills:
    #       description: 'aaa'
    #       percent: 80
    #       icon: custom/unc_crop_2 # must be in asset/media/icons/custom to work
-   - name: Hobbies
+   - name: Outside Research
      color: '#eeac02'
      color_border: '#f0bf23'
      items:
-       - name: "🥾 Hiking"
+       - name: "Hiking"
          description: ''
          percent: 0
-       - name: "🏕️ Camping"
+       - name: "Camping"
          description: ''
          percent: 0
          #icon: person-simple-walk
-       - name: "🛶 Kayaking"
+       - name: "Kayaking"
          description: ''
          percent: 0
          #icon: custom/kayak
-       - name: 🏞️ Visting National Parks
+       - name: Visiting National Parks
          description: 'I might be biased, but the Great Smoky Mountains are the best (closely followed by Sequoia-Kings).'
          percent: 0
          #icon: #custom/nps # must be in asset/media/icons/custom to work
-   - name: Next NPs
+   - name: Upcoming National Parks
      color: '#eeac02'
      color_border: '#f0bf23'
      items:
-       - name: "🌵🦎🏜️"
+       - name: "Desert Parks"
          description: ''
          percent: 0
-       - name: "🦟🌳🌧️"
+       - name: "Rainforest Parks"
          description: ''
          percent: 0
-       - name: "🦬🌋💨"
+       - name: "Mountain and Volcanic Parks"
          description: ''
          percent: 0
-       - name: "🐻🍂🪕"
+       - name: "Appalachian Parks"
          description: 'I might be biased, but the Great Smoky Mountains are REALLY the best.'
          percent: 0
 
@@ -247,4 +247,4 @@ awards:
 
 ## About Me
 
-I am a postdoc in radiology at UNC Chapel Hill. Since 2017, I've been working with <span class="no-break">Dr. Pew-Thian Yap</span> on MR reconstruction, signal representation, noise removal, tractography, and microstructure imaging using diffusion MRI data with applications in neurodevelopment.
+I am a postdoc in radiology at UNC Chapel Hill. Since 2017, I've been working with <span class="no-break">Dr. Pew-Thian Yap</span> on MR reconstruction, signal representation, noise removal, tractography, and microstructure imaging using diffusion MRI data with applications in neurodevelopment. Collaborate with me if your team is exploring neuroimaging methods, translational workflows, or data-driven developmental neuroscience.

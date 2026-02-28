@@ -13,3 +13,5 @@ content/_index.md|Work with Me
 content/tools/index.md|Code Repositories
 content/tools/index.md|### Resource status
 content/posts.md|title: 'Research Insights'
+content/experience.md|Download CV
+content/authors/admin/_index.md|Collaborate
