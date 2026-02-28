@@ -1,19 +1,12 @@
 # FILE|TEXT
-content/research.md|Selected Research
-content/research.md|Research Themes
-content/contact.md|Collaboration
-content/contact.md|Collaborate
-config/_default/menus.yaml|name: Research
-config/_default/menus.yaml|url: /contact/
-content/_index.md|Research focus
-content/_index.md|Start here
-content/_index.md|Flagship Papers
-content/_index.md|Tools and Code
-content/_index.md|Work with Me
-content/_index.md|href="/research/"
-content/_index.md|href="/contact/"
-content/tools/index.md|Code Repositories
-content/tools/index.md|### Resource status
-content/posts.md|title: 'Research Insights'
-content/experience.md|Download CV
-content/authors/admin/_index.md|Collaborate
+# Presence checks for restored baseline
+content/_index.md|title: '📚 My Research'
+content/_index.md|title: 🔬 Research Highlights
+content/_index.md|id: talks
+content/_index.md|id: news
+config/_default/menus.yaml|name: Papers
+config/_default/menus.yaml|name: Talks
+config/_default/menus.yaml|name: News
+assets/css/custom.css|/* TYPOGRAPHY POLISH */
+assets/css/custom.css|line-height: 1.65;
+assets/css/custom.css|font-size: clamp(1.75rem, 3vw, 2.15rem);
