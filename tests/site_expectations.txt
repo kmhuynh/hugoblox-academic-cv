@@ -10,6 +10,8 @@ content/_index.md|Start here
 content/_index.md|Flagship Papers
 content/_index.md|Tools and Code
 content/_index.md|Work with Me
+content/_index.md|href="/research/"
+content/_index.md|href="/contact/"
 content/tools/index.md|Code Repositories
 content/tools/index.md|### Resource status
 content/posts.md|title: 'Research Insights'
