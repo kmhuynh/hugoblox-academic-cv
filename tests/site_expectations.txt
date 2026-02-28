@@ -4,6 +4,6 @@ content/_index.md|title: '📚 My Research'
 content/_index.md|title: 🔬 Research Highlights
 content/_index.md|id: talks
 content/_index.md|id: news
-config/_default/menus.yaml|- name: Papers
-config/_default/menus.yaml|- name: Talks
-config/_default/menus.yaml|- name: News
+config/_default/menus.yaml|name: Papers
+config/_default/menus.yaml|name: Talks
+config/_default/menus.yaml|name: News
