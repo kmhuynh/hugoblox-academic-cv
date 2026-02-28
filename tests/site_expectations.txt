@@ -5,3 +5,8 @@ content/contact.md|Collaboration
 content/contact.md|Collaborate
 config/_default/menus.yaml|name: Research
 config/_default/menus.yaml|url: /contact/
+content/_index.md|Research focus
+content/_index.md|Start here
+content/_index.md|Flagship Papers
+content/_index.md|Tools and Code
+content/_index.md|Work with Me
